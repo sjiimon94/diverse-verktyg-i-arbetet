@@ -1,0 +1,252 @@
+{
+  "projektinfo": {
+    "projektnamn": "Tillbyggnad träregelstomme med pulpettak",
+    "projektnummer": "FYLLS_I",
+    "datum": "2026-07-04",
+    "status": "Preliminär handling",
+    "beställare": "FYLLS_I",
+    "ritad_av": "FYLLS_I",
+    "enhet": "mm",
+    "koordinatsystem": "Lokalt, origo = nedre vänstra hörnet utsida stomme"
+  },
+  "nivåer": {
+    "FG": 68.12,
+    "OK_syll": 68.12,
+    "OK_hammarband_låg": 70.45,
+    "OK_hammarband_hög": 71.52,
+    "OK_takregel_hög": 71.71,
+    "OK_takregel_låg": 70.64,
+    "OK_yttertak_hög": 71.74,
+    "OK_yttertak_låg": 70.67,
+    "notering": "Samtliga nivåer preliminära"
+  },
+  "planpolygon": {
+    "beskrivning": "L-formad planform, utsida stomme",
+    "enheter": "mm",
+    "punkter": [
+      {"id": "P1", "x": 0, "y": 0},
+      {"id": "P2", "x": 10500, "y": 0},
+      {"id": "P3", "x": 10500, "y": 3240},
+      {"id": "P4", "x": 14240, "y": 3240},
+      {"id": "P5", "x": 14240, "y": 9720},
+      {"id": "P6", "x": 7480, "y": 9720},
+      {"id": "P7", "x": 7480, "y": 4500},
+      {"id": "P8", "x": 0, "y": 4500}
+    ],
+    "area_approx_m2": 74.5,
+    "notering": "Yttermått, utsida regelstomme. Exkl. yttre beklädnad."
+  },
+  "väggar": [
+    {
+      "id": "V1",
+      "typ": "yttervägg",
+      "från": {"x": 0, "y": 0},
+      "till": {"x": 10500, "y": 0},
+      "längd": 10500,
+      "tjocklek_total": 310,
+      "regeltyp": "45x145",
+      "cc": 450,
+      "höjd_låg": 2330,
+      "höjd_hög": 2330,
+      "öppningar": [
+        {"id": "D1", "typ": "ytterdörr", "bredd": 1000, "höjd": 2100, "position_från_start": 2000, "bröstning": null},
+        {"id": "F1", "typ": "fönster", "bredd": 1200, "höjd": 1200, "position_från_start": 5500, "bröstning": 900}
+      ],
+      "notering": "Fasad 2, låg sida"
+    },
+    {
+      "id": "V2",
+      "typ": "yttervägg",
+      "från": {"x": 10500, "y": 0},
+      "till": {"x": 10500, "y": 3240},
+      "längd": 3240,
+      "tjocklek_total": 310,
+      "regeltyp": "45x145",
+      "cc": 450,
+      "höjd_låg": 2330,
+      "höjd_hög": 2770,
+      "öppningar": [],
+      "notering": "Fasad 4, höger nedre"
+    },
+    {
+      "id": "V3",
+      "typ": "yttervägg",
+      "från": {"x": 10500, "y": 3240},
+      "till": {"x": 14240, "y": 3240},
+      "längd": 3740,
+      "tjocklek_total": 310,
+      "regeltyp": "45x145",
+      "cc": 450,
+      "höjd_låg": 2770,
+      "höjd_hög": 2770,
+      "öppningar": [],
+      "notering": "Fasad 4, utskjutande horisontell"
+    },
+    {
+      "id": "V4",
+      "typ": "yttervägg",
+      "från": {"x": 14240, "y": 3240},
+      "till": {"x": 14240, "y": 9720},
+      "längd": 6480,
+      "tjocklek_total": 310,
+      "regeltyp": "45x145",
+      "cc": 450,
+      "höjd_låg": 2770,
+      "höjd_hög": 3400,
+      "öppningar": [
+        {"id": "F3", "typ": "fönster", "bredd": 1200, "höjd": 1200, "position_från_start": 2000, "bröstning": 900}
+      ],
+      "notering": "Fasad 4, utskjutande vertikal"
+    },
+    {
+      "id": "V5",
+      "typ": "yttervägg",
+      "från": {"x": 14240, "y": 9720},
+      "till": {"x": 7480, "y": 9720},
+      "längd": 6760,
+      "tjocklek_total": 310,
+      "regeltyp": "45x145",
+      "cc": 450,
+      "höjd_låg": 3400,
+      "höjd_hög": 3400,
+      "öppningar": [
+        {
+          "id": "Ö1",
+          "typ": "förstorad_öppning",
+          "bredd": 3200,
+          "höjd": 2100,
+          "position_från_start": "KONTROLLERAS",
+          "bröstning": null,
+          "överstycke": "2x45x220_LVL",
+          "sidoreglar": "2x2x45x145",
+          "notering": "PRELIMINÄRT MÅTT - MÅSTE BEKRÄFTAS"
+        }
+      ],
+      "notering": "Övre del, mot befintligt hus, med förstorad öppning Ö1"
+    },
+    {
+      "id": "V6",
+      "typ": "yttervägg",
+      "från": {"x": 7480, "y": 9720},
+      "till": {"x": 7480, "y": 4500},
+      "längd": 5220,
+      "tjocklek_total": 310,
+      "regeltyp": "45x145",
+      "cc": 450,
+      "höjd_låg": 3400,
+      "höjd_hög": 2770,
+      "öppningar": [],
+      "notering": "Vänster utskjutande"
+    },
+    {
+      "id": "V7",
+      "typ": "anslutning_befintligt_hus",
+      "från": {"x": 7480, "y": 4500},
+      "till": {"x": 0, "y": 4500},
+      "längd": 7480,
+      "tjocklek_total": 45,
+      "regeltyp": "45x145",
+      "cc": null,
+      "höjd_låg": 3400,
+      "höjd_hög": 3400,
+      "öppningar": [],
+      "anslutning": {
+        "typ": "enkel_anslutningsregel",
+        "tjocklek": 45,
+        "infästning": "kemankare_M12_cc600",
+        "tätning": "kompriband_plus_fogmassa",
+        "befintlig_vägg": "lecasten"
+      },
+      "notering": "45 mm tjock anslutning mot befintligt hus - ICKE fullständig yttervägg"
+    },
+    {
+      "id": "V8",
+      "typ": "yttervägg",
+      "från": {"x": 0, "y": 4500},
+      "till": {"x": 0, "y": 0},
+      "längd": 4500,
+      "tjocklek_total": 310,
+      "regeltyp": "45x145",
+      "cc": 450,
+      "höjd_låg": 3400,
+      "höjd_hög": 2330,
+      "öppningar": [
+        {"id": "F2", "typ": "fönster", "bredd": 1000, "höjd": 1000, "position_från_start": 1500, "bröstning": 900}
+      ],
+      "notering": "Gavel vänster"
+    }
+  ],
+  "innerväggar": [
+    {
+      "id": "IW1",
+      "från": {"x": 3910, "y": 0},
+      "till": {"x": 3910, "y": 4500},
+      "längd": 4500,
+      "tjocklek": 95,
+      "regeltyp": "45x70",
+      "notering": "Preliminär"
+    },
+    {
+      "id": "IW2",
+      "från": {"x": 3910, "y": 2350},
+      "till": {"x": 7480, "y": 2350},
+      "längd": 3570,
+      "tjocklek": 95,
+      "regeltyp": "45x70",
+      "notering": "Preliminär"
+    }
+  ],
+  "takdata": {
+    "taktyp": "pulpettak",
+    "lutning_grader": 14,
+    "lutning_kvot": "1:4",
+    "fallriktning": "från_hög_sida_mot_låg_sida",
+    "regeltyp": "45x190",
+    "cc": 450,
+    "antal_takreglar": 41,
+    "ungefärlig_längd_per_regel": 5050,
+    "taksprång_låg_sida": 400,
+    "taksprång_gavel": 300,
+    "upplag_hög": "hammarband_V7_anslutningsregel",
+    "upplag_låg": "hammarband_V1",
+    "notering": "Samtliga mått preliminära"
+  },
+  "konstruktionsdata": {
+    "väggreglar": {"dimension": "45x145", "material": "C24", "cc": 450},
+    "syll": {"dimension": "45x145", "material": "impregnerad_NTR_AB"},
+    "hammarband": {"dimension": "2x45x145", "material": "C24"},
+    "hörnlösning": {"typ": "tre_reglar", "dimension": "45x145"},
+    "överstycke_standard": {"dimension": "2x45x145", "material": "C24"},
+    "överstycke_Ö1": {"dimension": "2x45x220", "material": "LVL", "status": "PROJEKTERAS_AV_KONSTRUKTÖR"},
+    "sidoreglar": {"dimension": "2x45x145", "material": "C24"},
+    "anslutningsregel": {"dimension": "45x145", "tjocklek_synlig": 45, "infästning": "kemankare_M12_cc600"}
+  },
+  "sektioner": [
+    {
+      "id": "A-A",
+      "från": {"fasad": "Fasad 2", "punkt": "låg sida"},
+      "till": {"fasad": "V7", "punkt": "hög sida, befintligt hus"},
+      "riktning": "vinkelrätt_mot_takfall",
+      "blickriktning": "mot_höger"
+    }
+  ],
+  "detaljreferenser": [
+    {"id": "D1", "benämning": "Anslutning tak/vägg mot befintligt hus", "skala": "1:5", "position": "hög sida, V7"},
+    {"id": "D2", "benämning": "Yttervägg mot grund/syll", "skala": "1:5", "position": "samtliga ytterväggar"},
+    {"id": "D3", "benämning": "Takfot låg sida", "skala": "1:5", "position": "V1, takfot"},
+    {"id": "D4", "benämning": "Hörndetalj yttervägg", "skala": "1:5", "position": "samtliga hörn"},
+    {"id": "D5", "benämning": "Fönster-/dörranslutning", "skala": "1:5", "position": "samtliga öppningar"}
+  ],
+  "metadata": {
+    "genererat": "2026-07-04",
+    "version": "1.0",
+    "status": "PRELIMINÄR",
+    "varningar": [
+      "Öppning Ö1 bredd 3200 mm är preliminärt - MÅSTE BEKRÄFTAS",
+      "Anslutningsregel V7 45 mm - konstruktör ska verifiera",
+      "Väderstreck ej verifierade",
+      "Samtliga öppningsmått är antaganden",
+      "Grundtyp ej fastställd"
+    ]
+  }
+}
