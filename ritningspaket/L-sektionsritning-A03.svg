@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1150" width="1600" height="1150">
+  <title>A-03 Sektion A-A – Tillbyggnad träregelstomme</title>
+  <desc>Preliminär SVG-export av sektionsritning A-03 med referens till användarens sektionsskiss.</desc>
+  <style>
+    .sheet { fill:#fff; stroke:#000; stroke-width:2; }
+    .frame { fill:none; stroke:#000; stroke-width:1.5; }
+    .wall { fill:none; stroke:#111; stroke-width:4; }
+    .roof { fill:none; stroke:#111; stroke-width:4; }
+    .existing { fill:none; stroke:#111; stroke-width:3; }
+    .dim { fill:none; stroke:#d10000; stroke-width:2; }
+    .blue { fill:none; stroke:#2e56ff; stroke-width:8; stroke-linecap:round; }
+    .text { font: 21px Arial, sans-serif; fill:#000; }
+    .small { font: 16px Arial, sans-serif; fill:#333; }
+    .dim-text { font: 20px Arial, sans-serif; fill:#d10000; }
+    .title { font: 26px Arial, sans-serif; fill:#000; }
+    .green { font: 18px Arial, sans-serif; fill:#0a8f2d; }
+  </style>
+  <rect x="20" y="20" width="1560" height="1110" class="sheet"/>
+  <text x="60" y="70" class="title">A-03 SEKTION A–A – Tillbyggnad träregelstomme (PRELIMINÄR)</text>
+
+  <g transform="translate(40,110)">
+    <rect x="0" y="0" width="920" height="760" class="frame"/>
+    <line x1="0" y1="600" x2="920" y2="600" class="existing"/>
+    <rect x="130" y="585" width="510" height="25" fill="none" stroke="#000" stroke-width="2"/>
+    <path d="M110 520 L355 470 L645 405" class="roof"/>
+    <path d="M110 528 L355 478 L645 413" class="roof"/>
+    <line x1="110" y1="520" x2="110" y2="600" class="wall"/>
+    <line x1="145" y1="520" x2="145" y2="600" class="wall"/>
+    <line x1="645" y1="260" x2="645" y2="600" class="existing"/>
+    <path d="M620 315 C650 265 700 265 720 315 C695 350 650 355 620 315" fill="none" stroke="#000" stroke-width="3"/>
+    <text x="420" y="165" class="text">Befintligt husliv</text>
+    <line x1="575" y1="172" x2="645" y2="120" class="frame"/>
+    <text x="420" y="230" class="text">Detalj D1</text>
+    <line x1="520" y1="235" x2="623" y2="300" class="frame"/>
+    <line x1="365" y1="450" x2="365" y2="520" class="dim"/>
+    <line x1="365" y1="450" x2="440" y2="450" class="dim"/>
+    <line x1="440" y1="450" x2="440" y2="520" class="dim"/>
+    <text x="385" y="485" class="dim-text" transform="rotate(76 385 485)">14°</text>
+
+    <line x1="55" y1="320" x2="55" y2="600" class="dim"/>
+    <line x1="55" y1="320" x2="110" y2="320" class="dim"/>
+    <line x1="55" y1="365" x2="145" y2="365" class="dim"/>
+    <line x1="55" y1="430" x2="145" y2="430" class="dim"/>
+    <text x="35" y="470" class="dim-text" transform="rotate(-90 35 470)">2490</text>
+    <text x="85" y="485" class="dim-text" transform="rotate(-90 85 485)">2445</text>
+    <text x="125" y="505" class="dim-text" transform="rotate(-90 125 505)">2330</text>
+
+    <line x1="585" y1="260" x2="585" y2="600" class="dim"/>
+    <text x="565" y="470" class="dim-text" transform="rotate(-90 565 470)">3400</text>
+
+    <line x1="130" y1="640" x2="640" y2="640" class="dim"/>
+    <line x1="130" y1="600" x2="130" y2="660" class="dim"/>
+    <line x1="640" y1="600" x2="640" y2="660" class="dim"/>
+    <text x="365" y="690" class="dim-text">4500</text>
+
+    <text x="300" y="560" class="dim-text">FG +68.12</text>
+    <text x="695" y="560" class="dim-text">FG +68.12</text>
+    <text x="105" y="300" class="small">Väggreglar 45×145, c/c 450</text>
+    <text x="270" y="450" class="small">Takstol 45×195 + nedregling 45×45, c/c 450</text>
+  </g>
+
+  <g transform="translate(1000,110)">
+    <rect x="0" y="0" width="520" height="420" class="frame"/>
+    <path d="M70 280 L350 215 L470 188" class="roof"/>
+    <path d="M70 288 L350 223 L470 196" class="roof"/>
+    <line x1="470" y1="60" x2="470" y2="350" class="existing"/>
+    <line x1="410" y1="120" x2="440" y2="120" class="blue"/>
+    <path d="M447 120 L492 105 L505 90" class="blue"/>
+    <text x="185" y="70" class="text">bärlina 45×190</text>
+    <text x="235" y="105" class="text">3lagspapp</text>
+    <text x="330" y="105" class="text">Plåtbleck</text>
+    <text x="170" y="150" class="text">Råspontslucka</text>
+    <text x="215" y="205" class="text">balksko</text>
+    <text x="25" y="185" class="text">takstolsregel 45×195</text>
+    <polygon points="390,260 430,260 430,320 390,320" fill="none" stroke="#000" stroke-width="2"/>
+    <polyline points="390,260 430,210 470,210" fill="none" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(1100,620)">
+    <text x="0" y="0" style="font: 56px Arial, sans-serif; fill:#000;">Sektionsritning</text>
+    <text x="0" y="78" style="font: 56px Arial, sans-serif; fill:#000;">Tillbyggnad</text>
+    <text x="0" y="155" style="font: 30px Arial, sans-serif; fill:#000;">skala 1:100 (SVG-export)</text>
+    <text x="0" y="215" style="font: 24px Arial, sans-serif; fill:#000;">Ritad av: Copilot</text>
+    <text x="0" y="255" style="font: 24px Arial, sans-serif; fill:#000;">A-03</text>
+    <text x="0" y="300" style="font: 24px Arial, sans-serif; fill:#000;">2026-07-05</text>
+    <text x="0" y="350" class="green">FG +68.12</text>
+    <text x="0" y="385" class="small">Referens: användarskiss + aktuellt ritningspaket</text>
+    <text x="0" y="420" class="small">Ej för produktion utan kontrollmätning</text>
+  </g>
+
+  <g transform="translate(150,910)">
+    <line x1="0" y1="20" x2="500" y2="20" stroke="#ff0000" stroke-width="6"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#00b62c" stroke-width="4"/>
+    <line x1="500" y1="0" x2="500" y2="40" stroke="#00b62c" stroke-width="4"/>
+    <text x="-5" y="-5" class="green">0</text>
+    <text x="100" y="-5" class="green">1</text>
+    <text x="200" y="-5" class="green">2</text>
+    <text x="300" y="-5" class="green">3</text>
+    <text x="400" y="-5" class="green">4</text>
+    <text x="505" y="-5" class="green">5 m</text>
+  </g>
+</svg>

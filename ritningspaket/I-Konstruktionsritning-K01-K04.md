@@ -18,7 +18,7 @@
 | Väggreglar       | 45×145 mm      | C24 konstruktionsvirke | c/c 450                   |
 | Syll             | 45×145 mm      | Impregnerat NTR AB | Enkel syll                   |
 | Hammarband       | 2×45×145 mm    | C24                | Dubbelt hammarband           |
-| Takreglar        | 45×190 mm      | C24                | c/c 450, lutning 14°        |
+| Takstolar/takreglar | 45×195 mm   | C24                | c/c 450, lutning 14°        |
 | Hörnreglar       | 3×45×145 mm    | C24                | Tre reglar i hörn            |
 | Överstycke (std) | 2×45×145 mm    | C24                | Vid öppningar ≤ 1 200 mm    |
 | Överstycke (Ö1)  | 2×45×220 LVL   | LVL-balk           | PROJEKTERAS AV KONSTRUKTÖR  |
@@ -37,7 +37,7 @@
 ### Lastnedföring (principiell)
 
 ```
-Taktäckning → Takreglar 45×190 → Hammarband → Väggreglar 45×145 → Syll → Grund
+Taktäckning → Takstol 45×195 + nedregling 45×45 → Hammarband → Väggreglar 45×145 → Syll → Grund
                                                                           ↓
 Snölast + Egentyngd                                            PROJEKTERAS AV KONSTRUKTÖR
 Vindlast → Skivverkan i väggar och tak → Förankring i grund
@@ -198,7 +198,7 @@ Se detalj D4 för fullständig hörnuppbyggnad.
 
 | Egenskap             | Värde                                    |
 |----------------------|------------------------------------------|
-| Regeltyp             | 45×190 mm C24                            |
+| Regeltyp             | 45×195 mm C24 + nedregling 45×45         |
 | C/c-avstånd          | 450 mm                                   |
 | Lutning              | 14° (fallriktning mot Fasad 2, låg sida)|
 | Fallriktning         | Från befintligt hus (hög sida) mot låg sida |
@@ -229,8 +229,8 @@ Antal takreglar utskjutande del: (6 480 + 3 240) / 450 + 1 ≈ **22 st** (KONTRO
 
 | Del              | Dimension     | Längd mm | Placering              |
 |------------------|---------------|----------|------------------------|
-| Kantbalk gavel V | 45×190 mm     | ca 5 050 | Gavel vänster (V8)     |
-| Kantbalk gavel H | 45×190 mm     | ca 5 050 | Gavel höger (V4)       |
+| Kantbalk gavel V | 45×195 mm     | ca 5 050 | Gavel vänster (V8)     |
+| Kantbalk gavel H | 45×195 mm     | ca 5 050 | Gavel höger (V4)       |
 
 ### Infästning takreglar
 
@@ -256,8 +256,9 @@ Antal takreglar utskjutande del: (6 480 + 3 240) / 450 + 1 ≈ **22 st** (KONTRO
 | **Överstycke Ö1**      | **45×220 LVL**| **3 400 mm**          | **2**   | **PROJEKTERAS AV KONSTR.**  |
 | Sidoreglar/trimmer     | 45×145 mm     | 1 000–2 100 mm        | ca 20   | Dubbla per sida, per öppn.  |
 | Kortlingar             | 45×145 mm     | 350–450 mm            | ca 20   | Under bröstning, ovan överst.|
-| Takreglar              | 45×190 mm     | ca 5 050 mm           | ca 39   | Inkl. taksprång              |
-| Kantbalk tak           | 45×190 mm     | ca 5 050 mm           | 2       | Gavlar                       |
+| Takstolar/takreglar    | 45×195 mm     | ca 5 050 mm           | ca 39   | Inkl. taksprång              |
+| Nedregling tak         | 45×45 mm      | ca 210 m              | ca 41   | Tvärs takstolar, c/c 450     |
+| Kantbalk tak           | 45×195 mm     | ca 5 050 mm           | 2       | Gavlar                       |
 | **Anslutningsregel**   | **45×145 mm** | **7 480 mm**          | **1**   | **Mot befintligt hus**      |
 | Installationsskikt     | 45×45 mm      | div. längder          | ca 120  | Horisontella reglar c/c 600  |
 | Spikläkt               | 25×38 mm      | div. längder          | –       | Vertikal, c/c 600            |
@@ -278,7 +279,7 @@ Antal takreglar utskjutande del: (6 480 + 3 240) / 450 + 1 ≈ **22 st** (KONTRO
 | Mineralull väggar (reglar)  | 145 mm   | ca 95      | I regelstomme               |
 | Mineralull väggar (yttre)   | 30 mm    | ca 95      | Heltäckande yttre skikt     |
 | Mineralull väggar (inst.sk) | 45 mm    | ca 95      | I installationsskikt        |
-| Mineralull tak              | 190 mm   | ca 60      | I takreglar                 |
+| Mineralull tak              | 195 + 45 mm | ca 60    | I takstol + nedregling      |
 
 ### Övrigt
 

@@ -20,6 +20,8 @@
 
 **Totalt antal ritningar:** 15 st
 
+**Tillhörande SVG-exporter i paketet:** A-01 plan, A-02 fasader och A-03 sektion.
+
 ---
 
 # E. RITNINGSHUVUD / TITLE BLOCK

@@ -21,11 +21,11 @@ Samtliga antaganden **måste verifieras** innan produktion.
 ## Stomme
 
 10. Väggreglar 45×145 mm, c/c 450 mm – enligt uppgift.
-11. Takreglar 45×190 mm, c/c 450 mm – enligt uppgift.
+11. Takstol/takreglar 45×195 mm + nedregling 45×45 mm, c/c 450 mm – enligt uppgift.
 12. Hammarband dubbelt 45×145 mm i överkant vägg.
 13. Syll enkel 45×145 mm, impregnerad klass NTR AB eller likvärdig.
 14. Hörnlösning med tre reglar i hörn (standardlösning för träregelstomme).
-15. Överstycken vid öppningar: dubbla 45×190 mm (PROJEKTERAS AV KONSTRUKTÖR vid spännvidd > 1 200 mm).
+15. Överstycken vid standardöppningar: dubbla 45×145 mm. För Ö1 används 2×45×220 LVL (PROJEKTERAS AV KONSTRUKTÖR).
 
 ## Tak
 

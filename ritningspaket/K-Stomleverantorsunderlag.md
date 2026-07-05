@@ -13,7 +13,7 @@
 
 ### Ytterväggar – regelstomme 45×145 mm, c/c 450
 
-| Vägg-ID | Benämning                  | Längd mm | Höjd, låg mm | Höjd, hög mm | Regeltyp  | C/C  | Antal reglar | Öppningar                  | Notering                     |
+| Vägg-ID | Benämning                  | Längd mm | Höjd, låg mm | Höjd, hög mm | Regeltyp  | C/C  | Antal fältreglar* | Öppningar                  | Notering                     |
 |---------|----------------------------|----------|-------------|-------------|-----------|------|--------------|-----------------------------|------------------------------|
 | V1      | Fasad 2, låg sida          | 10 500   | 2 330       | 2 330       | 45×145 C24| 450  | 22           | D1 (1000×2100), F1 (1200×1200) | Alla reglar samma höjd    |
 | V2      | Fasad 4, nedre höger       | 3 240    | 2 330       | 2 770 ★     | 45×145 C24| 450  | 7            | Inga                        | Lutande hammarband (14°)    |
@@ -59,7 +59,7 @@
 
 | Egenskap          | Värde                                           |
 |-------------------|-------------------------------------------------|
-| Regeltyp          | 45×190 mm C24                                   |
+| Regeltyp          | 45×195 mm C24 + nedregling 45×45 mm             |
 | C/c               | 450 mm                                          |
 | Lutning           | 14°                                             |
 | Fallriktning      | Från hög sida (bef. hus) mot låg sida (Fasad 2) |
@@ -163,8 +163,8 @@
 | 6  | Konstruktionsvirke C24       | 45×145 mm      | Sidoreglar ~22 m   | ca 20       | Dubbla trimmer              |
 | 7  | Konstruktionsvirke C24       | 45×145 mm      | Hörnreglar ~75 m   | ca 24       | 3 per hörn                  |
 | 8  | Konstruktionsvirke C24       | 45×145 mm      | Kortlingar ~5 m    | ca 12       | Under bröstning/ovan överst.|
-| 9  | Konstruktionsvirke C24       | 45×190 mm      | Takreglar ~207 m   | ca 41       | Inkl. kantbalkar            |
-| 10 | Konstruktionsvirke C24       | 45×45 mm       | Inst.skikt ~200 m  | ca 120      | Horisontella, c/c 600       |
+| 9  | Konstruktionsvirke C24       | 45×195 mm      | Takstolar ~207 m   | ca 41       | Inkl. kantbalkar            |
+| 10 | Konstruktionsvirke C24       | 45×45 mm       | Nedregling tak ~210 m | ca 41     | Tvärs takstolar, c/c 450    |
 | 11 | Impregnerat virke NTR AB     | 45×145 mm      | Syll ~48 m         | –           | Ingår i rad 2               |
 
 ### Takriktning och huvudmått
@@ -201,4 +201,6 @@
 9. LVL-balk för Ö1 beställs efter konstruktörens dimensionering
 
 ---
+* Fältreglar = genomgående väggreglar enligt c/c-modul, exklusive öppningsreglar, hörnreglar, syll och hammarband.
+
 *Dokumentet är preliminärt. Slutgiltig beställning efter kontrollmätning och konstruktörens godkännande.*

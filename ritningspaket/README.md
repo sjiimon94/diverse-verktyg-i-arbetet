@@ -22,6 +22,8 @@
 | `K-Stomleverantorsunderlag.md` | K | Väggschema, öppningar, takreglar, beställningslista |
 | `L-export-byggnad.json` | L | JSON-modell av byggnaden |
 | `L-planritning-A01.svg` | L | SVG-planritning (förenklad) |
+| `L-fasadritningar-A02.svg` | L | SVG-fasadritningar (A-02, 4 fasader) |
+| `L-sektionsritning-A03.svg` | L | SVG-sektionsritning (A-03) |
 | `L-DXF-lagerstruktur.md` | L | DXF-kompatibel lagerstruktur |
 | `M-Kvalitetskontroll.md` | M | Konflikter, checklistor, kvalitetsbedömning |
 
@@ -32,3 +34,9 @@
 ⚠ **45 MM ANSLUTNING:** Den gulmarkerade delen mot befintligt hus redovisas som 45 mm tjock anslutningsregel (ej full vägguppbyggnad). Konstruktör ska verifiera.
 
 ⚠ **INTE FÖR PRODUKTION** utan kontrollmätning, konstruktörsdimensionering och beställarbekräftelse.
+
+## Uppdatering 2026-07-05
+
+- Visualiserade ritningar har lagts till som SVG-exporter för plan, fasader och sektion.
+- Taksystemet är uppdaterat till **45×195 mm + 45×45 mm**, c/c 450 mm.
+- Väggreglar kvarstår som **45×145 mm**, c/c 450 mm.
