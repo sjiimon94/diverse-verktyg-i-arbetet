@@ -1,7 +1,7 @@
 # H. SEKTION A–A – A-03
 
 **Ritningsnummer:** A-03  
-**Skala:** 1:20  
+**Skala:** 1:100  
 **Format:** A3  
 **Status:** Preliminär handling  
 **Datum:** 2026-07-04

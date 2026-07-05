@@ -1,7 +1,7 @@
 # G. UPPSTÄLLNINGSRITNINGAR / FASADRITNINGAR – A-02
 
 **Ritningsnummer:** A-02.1 till A-02.4  
-**Skala:** 1:50  
+**Skala:** 1:100  
 **Format:** A3  
 **Status:** Preliminär handling  
 **Datum:** 2026-07-04

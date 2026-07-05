@@ -37,6 +37,6 @@
 
 ## Uppdatering 2026-07-05
 
-- Visualiserade ritningar har lagts till som SVG-exporter för plan, fasader och sektion.
+- Visualiserade ritningar har uppdaterats för att följa referensexemplen för plan, fasader och sektion i skala 1:100.
 - Taksystemet är uppdaterat till **45×195 mm + 45×45 mm**, c/c 450 mm.
 - Väggreglar kvarstår som **45×145 mm**, c/c 450 mm.

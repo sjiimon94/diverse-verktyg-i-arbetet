@@ -1,7 +1,7 @@
 # F. PLANRITNING – A-01
 
 **Ritningsnummer:** A-01  
-**Skala:** 1:50  
+**Skala:** 1:100  
 **Format:** A2  
 **Status:** Preliminär handling  
 **Datum:** 2026-07-04
