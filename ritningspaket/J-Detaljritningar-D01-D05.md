@@ -13,7 +13,7 @@
 
 ### Vad detaljen visar
 
-Anslutning mellan nytt pulpettak (hög sida) och befintlig lecavägg inkl. den 45 mm tjocka anslutningsregeln. Detaljen visar hur takreglar upplagres på anslutningsregeln, tätning mot befintlig vägg och plåtbeslag.
+Anslutning mellan nytt pulpettak (hög sida) och befintlig lecavägg inkl. den 45 mm tjocka anslutningsregeln. Detaljen visar hur takreglar upplagras på anslutningsregeln, tätning mot befintlig vägg och plåtbeslag.
 
 ### Lager/material (utifrån och in, nerifrån och upp)
 
@@ -31,15 +31,17 @@ Anslutning mellan nytt pulpettak (hög sida) och befintlig lecavägg inkl. den 4
 | Nr | Del                          | Mått/Dim.           | Notering                              |
 |----|-------------------------------|---------------------|---------------------------------------|
 | 5  | Hammarband (hög sida)         | 2×45×145 mm         | Ovanpå anslutningsregel                |
-| 6  | Takregel                      | 45×190 mm           | Upplag med regelsko/vinkelbeslag      |
-| 7  | Isolering i takregel          | 190 mm mineralull   | Fyllning till ÖK takregel            |
-| 8  | Ångspärr PE-folie             | 0,2 mm              | Anslutet till vägg-ångspärr           |
-| 9  | Gipsskiva innertak            | 13 mm               | Underifrån på takreglar               |
-| 10 | Vindskydd/underlagsduk        | –                   | Ovansida takreglar                    |
-| 11 | Ströläkt (luftspalt)          | 25×50 mm            | Ventilerad luftspalt                  |
-| 12 | Råspont/underlagsskiva        | 22 mm               | –                                     |
-| 13 | Underlagspapp                 | –                   | KONTROLLERAS                          |
-| 14 | Taktäckning                   | –                   | KONTROLLERAS (papp/plåt)              |
+| 6  | Takstol/takregel             | 45×195 mm           | Upplag med regelsko/vinkelbeslag      |
+| 7  | Isolering i takstol          | 195 mm mineralull   | Fyllning till ÖK takstol              |
+| 8  | Nedregling                   | 45×45 mm            | Invändigt, c/c 450                    |
+| 9  | Isolering i nedregling       | 45 mm mineralull    | Kompletterande isolerskikt            |
+| 10 | Ångspärr PE-folie            | 0,2 mm              | Anslutet till vägg-ångspärr           |
+| 11 | Gipsskiva innertak           | 13 mm               | Underifrån på nedregling              |
+| 12 | Vindskydd/underlagsduk       | –                   | Ovansida takstol                      |
+| 13 | Ströläkt (luftspalt)         | 25×50 mm            | Ventilerad luftspalt                  |
+| 14 | Råspont/underlagsskiva       | 22 mm               | –                                     |
+| 15 | Underlagspapp                | –                   | KONTROLLERAS                          |
+| 16 | Taktäckning                  | –                   | KONTROLLERAS (papp/plåt)              |
 
 #### Plåtbeslag vid anslutning
 
@@ -70,7 +72,8 @@ Anslutning mellan nytt pulpettak (hög sida) och befintlig lecavägg inkl. den 4
 - Kemankare c/c: 600 mm
 - Plåtuppvik mot befintlig vägg: min 150 mm
 - Hammarbandhöjd: 2×145 = 290 mm (ÖK)
-- Takregelhöjd: 190 mm
+- Takstolshöjd: 195 mm
+- Nedregling: 45 mm
 - Luftspalt i tak: 25 mm
 - Avstånd UK takregel till ÖK anslutningsregel
 - Takvinkel 14°
@@ -153,18 +156,19 @@ Takfot vid låg sida (Fasad 2) med taksprång, vindskiva, hängränna och anslut
 | Nr | Del                          | Mått/Dim.           | Notering                              |
 |----|-------------------------------|---------------------|---------------------------------------|
 | 1  | Hammarband                    | 2×45×145 mm         | ÖK vägg, låg sida                    |
-| 2  | Takregel                      | 45×190 mm           | Fågelmun-snitt alt. vinkelbeslag     |
-| 3  | Isolering                     | 190 mm              | Till ÖK hammarband                   |
-| 4  | Ångspärr                      | 0,2 mm PE           | Ansluten till vägg-ångspärr          |
-| 5  | Gipsskiva innertak            | 13 mm               | Underifrån                            |
-| 6  | Vindskydd/underlagsduk        | –                   | Ovansida takreglar, utdragen till takfot |
-| 7  | Ströläkt                      | 25×50 mm            | Ventilationsöppning vid takfot       |
-| 8  | Råspont/underlagsskiva        | 22 mm               | Ut till taksprång                    |
-| 9  | Underlagspapp                 | –                   | –                                     |
-| 10 | Taktäckning                   | –                   | KONTROLLERAS                          |
+| 2  | Takstol/takregel             | 45×195 mm           | Fågelmun-snitt alt. vinkelbeslag     |
+| 3  | Isolering i takstol          | 195 mm              | Till ÖK takstol                      |
+| 4  | Nedregling                   | 45×45 mm            | Invändigt, c/c 450                   |
+| 5  | Ångspärr                     | 0,2 mm PE           | Ansluten till vägg-ångspärr          |
+| 6  | Gipsskiva innertak           | 13 mm               | Underifrån                            |
+| 7  | Vindskydd/underlagsduk       | –                   | Ovansida takstol, utdragen till takfot |
+| 8  | Ströläkt                     | 25×50 mm            | Ventilationsöppning vid takfot       |
+| 9  | Råspont/underlagsskiva       | 22 mm               | Ut till taksprång                    |
+| 10 | Underlagspapp                | –                   | –                                     |
+| 11 | Taktäckning                  | –                   | KONTROLLERAS                          |
 | 11 | Vindskiva                     | 22×145 mm           | Hyvlat virke, grundmålat             |
 | 12 | Vattbräda                     | 22×120 mm           | Under vindskiva                       |
-| 13 | Hängränna                     | –                   | KONTROLLERAS (halvrd ∅125?)          |
+| 13 | Hängränna                     | –                   | KONTROLLERAS (halvrund ∅125?)        |
 | 14 | Nätgaller (insektsnät)        | –                   | Vid ventilationsöppning takfot       |
 
 ### Infästningsprincip
@@ -186,7 +190,7 @@ Takfot vid låg sida (Fasad 2) med taksprång, vindskiva, hängränna och anslut
 - Vindskiva: 22×145 mm
 - Vattbräda: 22×120 mm
 - Luftspalt höjd: 25 mm
-- UK takregel vid takfot: +70.45 (ANT.)
+- UK takstol/nedregling vid takfot: +70.45 (ANT.)
 - Taklutning: 14°
 
 ---

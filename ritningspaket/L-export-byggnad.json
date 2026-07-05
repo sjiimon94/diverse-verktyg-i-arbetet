@@ -115,7 +115,8 @@
           "typ": "förstorad_öppning",
           "bredd": 3200,
           "höjd": 2100,
-          "position_från_start": "KONTROLLERAS",
+          "position_från_start": null,
+          "position_status": "KONTROLLERAS",
           "bröstning": null,
           "överstycke": "2x45x220_LVL",
           "sidoreglar": "2x2x45x145",
@@ -201,7 +202,7 @@
     "lutning_grader": 14,
     "lutning_kvot": "1:4",
     "fallriktning": "från_hög_sida_mot_låg_sida",
-    "regeltyp": "45x190",
+    "regeltyp": "45x195+45x45",
     "cc": 450,
     "antal_takreglar": 41,
     "ungefärlig_längd_per_regel": 5050,
@@ -213,6 +214,8 @@
   },
   "konstruktionsdata": {
     "väggreglar": {"dimension": "45x145", "material": "C24", "cc": 450},
+    "takstolar": {"dimension": "45x195", "material": "C24", "cc": 450},
+    "nedregling_tak": {"dimension": "45x45", "material": "C24", "cc": 450},
     "syll": {"dimension": "45x145", "material": "impregnerad_NTR_AB"},
     "hammarband": {"dimension": "2x45x145", "material": "C24"},
     "hörnlösning": {"typ": "tre_reglar", "dimension": "45x145"},
@@ -238,8 +241,8 @@
     {"id": "D5", "benämning": "Fönster-/dörranslutning", "skala": "1:5", "position": "samtliga öppningar"}
   ],
   "metadata": {
-    "genererat": "2026-07-04",
-    "version": "1.0",
+    "genererat": "2026-07-05",
+    "version": "1.1",
     "status": "PRELIMINÄR",
     "varningar": [
       "Öppning Ö1 bredd 3200 mm är preliminärt - MÅSTE BEKRÄFTAS",

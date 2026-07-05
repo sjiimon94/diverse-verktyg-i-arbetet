@@ -23,7 +23,7 @@ befintlig byggnad av lecasten (nedre plan) / 70 mm regelstomme (övre plan).
 
 ## Taksystem
 
-- Takreglar/takstolar 45×190 mm, c/c 450 mm
+- Takstol/takregel 45×195 mm med nedregling 45×45 mm, c/c 450 mm
 - Pulpettak, lutning ca 14°
 - Takfall mot låg sida
 - Anslutning mot befintligt husliv i hög sida
@@ -36,7 +36,7 @@ befintlig byggnad av lecasten (nedre plan) / 70 mm regelstomme (övre plan).
 4. Yttre heltäckande isolerskikt (t.ex. 30 mm mineralull)
 5. Vindskydd (t.ex. vindskyddsskiva 9 mm)
 6. Bärande regelstomme 45×145 mm med isolering
-7. Horisontellt installationsskikt (45×45 mm eller 45×70 mm)
+7. Horisontellt installationsskikt / nedregling 45×45 mm
 8. Ångspärr/ångbroms (PE-folie 0,2 mm)
 9. Invändig isolering i installationsskikt
 10. Invändig beklädnad (gipsskiva 13 mm)

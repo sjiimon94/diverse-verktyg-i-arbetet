@@ -2,12 +2,12 @@
 
 | Ritn.nr | Benämning                              | Skala     | Format | Status    | Rev. |
 |---------|----------------------------------------|-----------|--------|-----------|------|
-| A-01    | Planritning                            | 1:50      | A2     | Preliminär| -    |
-| A-02.1  | Fasad 1 (mot befintligt hus, hög sida) | 1:50      | A3     | Preliminär| -    |
-| A-02.2  | Fasad 2 (mot trädgård, låg sida)       | 1:50      | A3     | Preliminär| -    |
-| A-02.3  | Fasad 3 (gavel vänster)                | 1:50      | A3     | Preliminär| -    |
-| A-02.4  | Fasad 4 (gavel höger / utskjutande del)| 1:50      | A3     | Preliminär| -    |
-| A-03    | Sektion A-A                            | 1:20      | A3     | Preliminär| -    |
+| A-01    | Planritning                            | 1:100      | A2     | Preliminär| -    |
+| A-02.1  | Fasad 1 (mot befintligt hus, hög sida) | 1:100      | A3     | Preliminär| -    |
+| A-02.2  | Fasad 2 (mot trädgård, låg sida)       | 1:100      | A3     | Preliminär| -    |
+| A-02.3  | Fasad 3 (gavel vänster)                | 1:100      | A3     | Preliminär| -    |
+| A-02.4  | Fasad 4 (gavel höger / utskjutande del)| 1:100      | A3     | Preliminär| -    |
+| A-03    | Sektion A-A                            | 1:100      | A3     | Preliminär| -    |
 | K-01    | Konstruktionsöversikt stomme           | 1:50      | A2     | Preliminär| -    |
 | K-02    | Väggregelritning                       | 1:50      | A2     | Preliminär| -    |
 | K-03    | Takregelplan                           | 1:50      | A3     | Preliminär| -    |
@@ -20,6 +20,8 @@
 
 **Totalt antal ritningar:** 15 st
 
+**Tillhörande SVG-exporter i paketet:** A-01 plan, A-02 fasader och A-03 sektion.
+
 ---
 
 # E. RITNINGSHUVUD / TITLE BLOCK
@@ -31,7 +33,7 @@ Följande ritningshuvud ska användas konsekvent på samtliga ritningar:
 | **Projekt**        | Tillbyggnad träregelstomme med pulpettak           |
 | **Ritningens namn**| *[Fylls i per ritning, t.ex. "Planritning"]*       |
 | **Ritningsnummer** | *[Fylls i per ritning, t.ex. "A-01"]*              |
-| **Skala**          | *[Fylls i per ritning, t.ex. "1:50"]*              |
+| **Skala**          | *[Fylls i per ritning, t.ex. "1:100"]*              |
 | **Datum**          | 2026-07-04                                         |
 | **Revidering**     | –                                                  |
 | **Ritad av**       | *[Beställarens namn / CAD-projektör]*              |

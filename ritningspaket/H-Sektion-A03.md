@@ -1,7 +1,7 @@
 # H. SEKTION A–A – A-03
 
 **Ritningsnummer:** A-03  
-**Skala:** 1:20  
+**Skala:** 1:100  
 **Format:** A3  
 **Status:** Preliminär handling  
 **Datum:** 2026-07-04
@@ -55,12 +55,12 @@ Utifrån och in:
 | 3  | Vertikal spikläkt / luftspalt       | 25          | Kapillärbrytande spalt      |
 | 4  | Yttre isolerskikt (mineralull)      | 30          | Heltäckande, standardförslag|
 | 5  | Vindskyddsskiva                     | 9           | T.ex. Huntonit              |
-| 6  | Regelstomme 45×145 + isolering      | 145         | C24 konstruktionsvirke      |
+| 6  | Regelstomme 45×145 + isolering      | 145         | C24 konstruktionsvirke, c/c 450 |
 | 7  | Installationsskikt 45×45 + isolering| 45          | Horisontella reglar         |
 | 8  | Ångspärr/ångbroms PE-folie           | 0,2         | 0,2 mm PE-folie             |
 | 9  | Invändig gipsskiva                  | 13          | Normal brandgips 13 mm      |
 
-**Total väggtjocklek: ca 289 mm ≈ 290 mm** (avrundas till 310 mm inkl. puts och toleranser)
+**Total väggtjocklek: skikten summerar schematiskt till ca 289 mm.** Paketet använder **310 mm som projekteringsmått** inkl. puts, toleranser och anslutningar.
 
 **Standardförslag.** Tjocklek på yttre isolerskikt (post 4) och installationsskikt (post 7) **bör verifieras mot U-värdeskrav**.
 
@@ -88,14 +88,15 @@ Underifrån och upp:
 
 | Nr | Skikt                              | Tjocklek mm | Notering                    |
 |----|-------------------------------------|-------------|-----------------------------|
-| 1  | Innertak (gipsskiva)               | 13          | Monterad på takreglar       |
-| 2  | Ångspärr PE-folie                  | 0,2         | Skarvas med 200 mm överlapp |
-| 3  | Takreglar 45×190 + isolering       | 190         | C/c 450, lutning 14°       |
-| 4  | Vindskydd/underlagsduk             | –           | KONTROLLERAS (papp/duk)     |
-| 5  | Luftspalt (ströläkt)               | 25          | Vid luftat undertak         |
-| 6  | Råspont/underlagsskiva             | 22          | ANTAGANDE                   |
-| 7  | Underlagspapp/duk                  | –           | KONTROLLERAS                |
-| 8  | Taktäckning                        | –           | KONTROLLERAS (papp/plåt)    |
+| 1  | Innertak (gipsskiva)               | 13          | Monterad på nedregling      |
+| 2  | Nedregling / installationsskikt    | 45          | 45×45 mm, c/c 450           |
+| 3  | Ångspärr PE-folie                  | 0,2         | Skarvas med 200 mm överlapp |
+| 4  | Takstol/takregel + isolering       | 195         | 45×195 mm, c/c 450, lutning 14° |
+| 5  | Vindskydd/underlagsduk             | –           | KONTROLLERAS (papp/duk)     |
+| 6  | Luftspalt (ströläkt)               | 25          | Vid luftat undertak         |
+| 7  | Råspont/underlagsskiva             | 22          | ANTAGANDE                   |
+| 8  | Underlagspapp/duk                  | –           | KONTROLLERAS                |
+| 9  | Taktäckning                        | –           | KONTROLLERAS (papp/plåt)    |
 
 **Taklutning: 14°** (stigning ca 250 mm per 1 000 mm)
 
@@ -107,13 +108,13 @@ Underifrån och upp:
 |--------------------------------------|--------------|------------------------------|
 | FG (färdig golvnivå)                | +68.12       | Referensnivå                 |
 | ÖK syll                             | +68.12       | Syll ligger på platta/grund  |
-| ÖK hammarband, låg sida             | +70.45       | FG + 2 330 = +70.45 (ANT.)  |
-| UK takregel vid yttervägg, låg sida | +70.45       | Samma som ÖK hammarband      |
+| ÖK hammarband, låg sida             | +70.45       | Referenshöjd i tidigare underlag, KONTROLLERAS |
+| UK invändig nedregling, låg sida    | +70.45       | Referenshöjd låg sida, KONTROLLERAS |
 | ÖK hammarband, hög sida             | +71.52       | FG + 3 400 = +71.52 (ANT.)  |
-| UK takregel vid anslutning, hög sida| +71.52       | Samma som ÖK hammarband      |
-| ÖK tak (yttertak), hög sida         | +71.74       | +71.52 + 190 + 30 (ANT.)    |
-| ÖK tak (yttertak), låg sida         | +70.67       | +70.45 + 190 + 30 (ANT.)    |
-| UK takfot (undersida taksprång)      | +70.36       | +70.45 – 90 (vindskiva ANT.) |
+| UK takstol vid anslutning, hög sida | +71.52       | Samma som ÖK hammarband      |
+| ÖK tak (yttertak), hög sida         | +71.77       | +71.52 + 195 + 25 + 22 (ANT.) |
+| ÖK tak (yttertak), låg sida         | +70.70       | +70.45 + 195 + 25 + 22 (ANT.) |
+| UK takfot (undersida taksprång)     | +70.36       | KONTROLLERAS mot detalj D3   |
 
 **Höjdskillnad hög–låg sida:** ca 1 070 mm  
 **Kontroll lutning:** 1 070 / 4 500 = 0,238 ≈ tan(13,4°) ≈ **14°** ✓
@@ -141,8 +142,9 @@ Underifrån och upp:
 |-------------------|-------------|
 | FG till ÖK syll   | 0 (syll = FG)|
 | ÖK syll till ÖK hammarband | 2 330 |
-| ÖK hammarband till ÖK takregel | 190 |
-| Takuppbyggnad ovan takregel | ca 47 |
+| Nedregling + innertak | 58 |
+| Takstolshöjd | 195 |
+| Takuppbyggnad ovan takstol | ca 47 |
 | Taksprång utanför vägg | 400 |
 
 ### Vertikala mått (höger sida, hög)
@@ -150,8 +152,8 @@ Underifrån och upp:
 | Mått              | Dimension mm |
 |-------------------|-------------|
 | FG till ÖK hammarband | 3 400 |
-| ÖK hammarband till ÖK takregel | 190 |
-| Takuppbyggnad ovan takregel | ca 47 |
+| Takstolshöjd | 195 |
+| Takuppbyggnad ovan takstol | ca 47 |
 
 ### Horisontella mått
 
