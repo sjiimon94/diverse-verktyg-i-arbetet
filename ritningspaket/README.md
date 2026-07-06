@@ -21,9 +21,12 @@
 | `J-Detaljritningar-D01-D05.md` | J | 5 detaljritningar (D1–D5) |
 | `K-Stomleverantorsunderlag.md` | K | Väggschema, öppningar, takreglar, beställningslista |
 | `L-export-byggnad.json` | L | JSON-modell av byggnaden |
-| `L-planritning-A01.svg` | L | SVG-planritning (förenklad) |
-| `L-fasadritningar-A02.svg` | L | SVG-fasadritningar (A-02, 4 fasader) |
-| `L-sektionsritning-A03.svg` | L | SVG-sektionsritning (A-03) |
+| `L-planritning-A01.svg` | L | Omritad planritning som källfil för PDF |
+| `L-planritning-A01.pdf` | L | PDF-planritning för leverans |
+| `L-fasadritningar-A02.svg` | L | Omritade fasadritningar som källfil för PDF |
+| `L-fasadritningar-A02.pdf` | L | PDF-fasadritningar för leverans |
+| `L-sektionsritning-A03.svg` | L | Omritad sektionsritning som källfil för PDF |
+| `L-sektionsritning-A03.pdf` | L | PDF-sektionsritning för leverans |
 | `L-DXF-lagerstruktur.md` | L | DXF-kompatibel lagerstruktur |
 | `M-Kvalitetskontroll.md` | M | Konflikter, checklistor, kvalitetsbedömning |
 
@@ -37,6 +40,6 @@
 
 ## Uppdatering 2026-07-05
 
-- Visualiserade ritningar har uppdaterats för att följa referensexemplen för plan, fasader och sektion i skala 1:100.
+- Visualiserade ritningar har ritats om med ny layout, nytt ritningshuvud och PDF-exporter för plan, fasader och sektion.
 - Taksystemet är uppdaterat till **45×195 mm + 45×45 mm**, c/c 450 mm.
 - Väggreglar kvarstår som **45×145 mm**, c/c 450 mm.

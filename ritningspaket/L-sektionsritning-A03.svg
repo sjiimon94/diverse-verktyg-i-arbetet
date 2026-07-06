@@ -1,80 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="1600" height="1100">
-  <title>A-03 Sektionsritning – Tillbyggnad träregelstomme</title>
-  <desc>Sektionsritning A-03 anpassad efter referensexempel för bygglovsritningar i skala 1:100.</desc>
-  <style>
-    .sheet { fill:#fff; stroke:#000; stroke-width:2; }
-    .frame { fill:none; stroke:#000; stroke-width:1.2; }
-    .wall { fill:none; stroke:#111; stroke-width:3.2; }
-    .roof { fill:none; stroke:#111; stroke-width:3; stroke-linecap:round; }
-    .base { fill:none; stroke:#111; stroke-width:2.2; }
-    .mark-existing { fill:none; stroke:#999; stroke-width:1.5; stroke-dasharray:7 5; }
-    .mark-finished { fill:none; stroke:#444; stroke-width:1.6; }
-    .dim { fill:none; stroke:#666; stroke-width:1.1; }
-    .title { font: 40px Georgia, 'Times New Roman', serif; fill:#2d3548; font-weight:700; }
-    .text { font: 18px 'Arial', sans-serif; fill:#111; }
-    .small { font: 15px 'Arial', sans-serif; fill:#333; }
-    .tiny { font: 13px 'Arial', sans-serif; fill:#444; }
-    .dimtext { font: 16px 'Arial', sans-serif; fill:#444; }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" width="1800" height="1200">
+  <title>A-03 Sektion</title>
+  <desc>Omritad sektionsritning i bygglovsstil för PDF-export.</desc>
+  <defs>
+    <style>
+      .sheet{fill:#fff;stroke:#000;stroke-width:1.2}
+      .frame,.thin{fill:none;stroke:#000;stroke-width:1}
+      .wall{fill:none;stroke:#111;stroke-width:2.6}
+      .roof{fill:none;stroke:#111;stroke-width:2.1}
+      .floor{fill:none;stroke:#111;stroke-width:1.5}
+      .ground{fill:none;stroke:#555;stroke-width:1.1}
+      .stair{fill:none;stroke:#444;stroke-width:1.1}
+      .dim{fill:none;stroke:#666;stroke-width:0.9}
+      .text{font:15px Arial,sans-serif;fill:#111}
+      .small{font:12px Arial,sans-serif;fill:#222}
+      .tiny{font:10px Arial,sans-serif;fill:#333}
+      .dimtext{font:11px Arial,sans-serif;fill:#333}
+      .headline{font:700 17px Arial,sans-serif;fill:#111}
+      .title{font:24px Arial,sans-serif;fill:#111}
+    </style>
+  </defs>
 
-  <rect x="20" y="20" width="1560" height="1060" class="sheet"/>
-  <text x="70" y="80" class="title">Sektionsritning, skala 1:100</text>
-  <text x="70" y="115" class="small">A-03 Sektion A–A med befintlig/blivande mark, nivåer och huvudmått</text>
+  <rect x="20" y="20" width="1760" height="1160" class="sheet"/>
+  <rect x="40" y="40" width="1520" height="1120" class="frame"/>
+  <rect x="1580" y="40" width="180" height="1120" class="frame"/>
 
-  <rect x="60" y="145" width="1180" height="800" class="frame"/>
+  <text x="170" y="110" class="title">SEKTION A–A</text>
+  <text x="170" y="130" class="small">1 : 100</text>
 
-  <g transform="translate(135,215)">
-    <line x1="0" y1="520" x2="960" y2="520" class="mark-existing"/>
-    <path d="M0 540 L150 536 L280 532 L420 530 L590 528 L760 529 L960 531" class="mark-finished"/>
+  <g transform="translate(170,180)">
+    <rect x="0" y="0" width="1320" height="830" class="thin"/>
+    <line x1="70" y1="650" x2="1220" y2="650" class="ground"/>
+    <line x1="160" y1="640" x2="160" y2="260" class="wall"/>
+    <line x1="1010" y1="640" x2="1010" y2="260" class="wall"/>
+    <line x1="160" y1="260" x2="1010" y2="260" class="roof"/>
+    <line x1="160" y1="470" x2="1010" y2="470" class="floor"/>
+    <line x1="200" y1="640" x2="200" y2="300" class="wall"/>
+    <line x1="970" y1="640" x2="970" y2="300" class="wall"/>
+    <line x1="200" y1="300" x2="970" y2="300" class="roof"/>
 
-    <rect x="115" y="495" width="450" height="30" class="base"/>
-    <line x1="115" y1="360" x2="115" y2="495" class="wall"/>
-    <line x1="145" y1="360" x2="145" y2="495" class="wall"/>
-    <line x1="565" y1="135" x2="565" y2="495" class="wall"/>
-    <line x1="600" y1="135" x2="600" y2="495" class="wall"/>
+    <polyline points="550,640 550,590 590,550 630,510 670,470" class="stair"/>
+    <polyline points="670,470 670,420 710,380 750,340 790,300" class="stair"/>
+    <line x1="550" y1="590" x2="620" y2="590" class="stair"/>
+    <line x1="590" y1="550" x2="660" y2="550" class="stair"/>
+    <line x1="630" y1="510" x2="700" y2="510" class="stair"/>
+    <line x1="670" y1="420" x2="740" y2="420" class="stair"/>
+    <line x1="710" y1="380" x2="780" y2="380" class="stair"/>
 
-    <line x1="115" y1="360" x2="600" y2="260" class="roof"/>
-    <line x1="115" y1="372" x2="600" y2="272" class="roof"/>
+    <rect x="260" y="500" width="180" height="140" class="thin"/>
+    <rect x="790" y="500" width="140" height="140" class="thin"/>
+    <rect x="260" y="330" width="140" height="100" class="thin"/>
+    <rect x="840" y="330" width="120" height="100" class="thin"/>
 
-    <line x1="600" y1="80" x2="600" y2="495" class="guide" style="stroke:#777; stroke-width:2; stroke-dasharray:6 5;"/>
-    <text x="625" y="105" class="small">Befintligt hus</text>
+    <text x="350" y="575" class="small" text-anchor="middle">SOVRUM</text>
+    <text x="860" y="575" class="small" text-anchor="middle">SOVRUM</text>
+    <text x="330" y="385" class="small" text-anchor="middle">KÖK</text>
+    <text x="900" y="385" class="small" text-anchor="middle">BAD</text>
+    <text x="665" y="610" class="small" text-anchor="middle">TRAPPA</text>
+    <text x="1080" y="642" class="tiny">FG +26,96</text>
 
-    <text x="180" y="345" class="small">Väggreglar 45×145, c/c 450</text>
-    <text x="285" y="240" class="small">Takstol 45×195 + 45×45, c/c 450</text>
-    <text x="275" y="470" class="small">FG +68.12</text>
-    <text x="617" y="470" class="small">FG +68.12</text>
-    <text x="390" y="300" class="small">14°</text>
+    <line x1="110" y1="260" x2="110" y2="640" class="dim"/>
+    <line x1="110" y1="260" x2="160" y2="260" class="dim"/>
+    <line x1="110" y1="640" x2="160" y2="640" class="dim"/>
+    <text x="94" y="452" class="dimtext" transform="rotate(-90 94 452)">6800</text>
 
-    <line x1="80" y1="360" x2="80" y2="495" class="dim"/>
-    <line x1="80" y1="360" x2="115" y2="360" class="dim"/>
-    <line x1="80" y1="495" x2="115" y2="495" class="dim"/>
-    <text x="66" y="430" class="dimtext" transform="rotate(-90 66 430)">2 330</text>
+    <line x1="1025" y1="260" x2="1025" y2="470" class="dim"/>
+    <line x1="1010" y1="260" x2="1040" y2="260" class="dim"/>
+    <line x1="1010" y1="470" x2="1040" y2="470" class="dim"/>
+    <text x="1048" y="370" class="dimtext" transform="rotate(-90 1048 370)">2800</text>
 
-    <line x1="46" y1="260" x2="46" y2="495" class="dim"/>
-    <line x1="46" y1="260" x2="115" y2="260" class="dim"/>
-    <line x1="46" y1="495" x2="115" y2="495" class="dim"/>
-    <text x="32" y="382" class="dimtext" transform="rotate(-90 32 382)">3 400</text>
+    <line x1="160" y1="700" x2="1010" y2="700" class="dim"/>
+    <line x1="160" y1="640" x2="160" y2="710" class="dim"/>
+    <line x1="1010" y1="640" x2="1010" y2="710" class="dim"/>
+    <text x="585" y="724" class="dimtext" text-anchor="middle">13000</text>
 
-    <line x1="115" y1="575" x2="565" y2="575" class="dim"/>
-    <line x1="115" y1="495" x2="115" y2="588" class="dim"/>
-    <line x1="565" y1="495" x2="565" y2="588" class="dim"/>
-    <text x="340" y="603" class="dimtext" text-anchor="middle">4 500</text>
+    <text x="180" y="240" class="small">YTTERTAK</text>
+    <text x="180" y="458" class="small">BJÄLKLAG</text>
+    <text x="180" y="628" class="small">PLATTA / GOLV</text>
   </g>
 
-  <g transform="translate(1265,835)">
-    <rect x="0" y="0" width="260" height="130" class="frame"/>
-    <line x1="0" y1="36" x2="260" y2="36" class="frame"/>
-    <line x1="0" y1="72" x2="260" y2="72" class="frame"/>
-    <line x1="0" y1="108" x2="260" y2="108" class="frame"/>
-    <line x1="88" y1="0" x2="88" y2="130" class="frame"/>
-    <text x="12" y="24" class="tiny">Ritning</text>
-    <text x="100" y="24" class="tiny">Sektion A–A</text>
-    <text x="12" y="60" class="tiny">Ritn.nr</text>
-    <text x="100" y="60" class="tiny">A-03</text>
-    <text x="12" y="96" class="tiny">Skala</text>
-    <text x="100" y="96" class="tiny">1:100</text>
-    <text x="12" y="124" class="tiny">Datum</text>
-    <text x="100" y="124" class="tiny">2026-07-05</text>
+  <g transform="translate(1605,60)">
+    <text x="0" y="0" class="headline">FÖRKLARINGAR</text>
+    <line x1="0" y1="10" x2="130" y2="10" class="thin"/>
+    <text x="0" y="34" class="tiny">FG</text>
+    <text x="38" y="34" class="tiny">FÄRDIGT GOLV</text>
+    <text x="0" y="56" class="tiny">A–A</text>
+    <text x="38" y="56" class="tiny">SEKTIONSSNITT</text>
+
+    <text x="0" y="124" class="headline">FÖRESKRIFTER</text>
+    <line x1="0" y1="134" x2="130" y2="134" class="thin"/>
+    <text x="0" y="158" class="tiny">SAMTLIGA MÅTT I MM.</text>
+    <text x="0" y="176" class="tiny">SKALA GÄLLER VID PDF.</text>
+
+    <g transform="translate(0,860)">
+      <rect x="0" y="0" width="140" height="54" class="thin"/>
+      <text x="70" y="24" class="small" text-anchor="middle">BYGGLOVSTJÄNST</text>
+      <text x="70" y="40" class="tiny" text-anchor="middle">OMRITAT UNDERLAG</text>
+    </g>
+
+    <g transform="translate(0,940)">
+      <rect x="0" y="0" width="140" height="180" class="thin"/>
+      <line x1="0" y1="30" x2="140" y2="30" class="thin"/>
+      <line x1="0" y1="60" x2="140" y2="60" class="thin"/>
+      <line x1="0" y1="90" x2="140" y2="90" class="thin"/>
+      <line x1="0" y1="120" x2="140" y2="120" class="thin"/>
+      <line x1="45" y1="0" x2="45" y2="180" class="thin"/>
+      <text x="6" y="20" class="tiny">OBJEKT</text>
+      <text x="50" y="20" class="tiny">UTTRAN 1:548</text>
+      <text x="6" y="50" class="tiny">RITN.</text>
+      <text x="50" y="50" class="tiny">SEKTION</text>
+      <text x="6" y="80" class="tiny">SKALA</text>
+      <text x="50" y="80" class="tiny">1:100</text>
+      <text x="6" y="110" class="tiny">DATUM</text>
+      <text x="50" y="110" class="tiny">2026-07-06</text>
+      <text x="6" y="140" class="tiny">RITN.NR</text>
+      <text x="50" y="140" class="tiny">A-03</text>
+      <text x="6" y="170" class="tiny">REV</text>
+      <text x="50" y="170" class="tiny">A</text>
+    </g>
   </g>
 </svg>
