@@ -1,240 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" width="1800" height="1200">
   <title>A-01 Planritning</title>
-  <desc>Omritad planritning i bygglovsstil med måttsättning, sektionsmarkeringar och ritningshuvud i PDF-underlag.</desc>
+  <desc>Planritning omarbetad för att närmare följa tillhandahållen referens med tunnare linjeföring, tydligare rumsindelning och ritningspanel.</desc>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 z" fill="#111"/>
-    </marker>
     <marker id="arrow-open" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto">
-      <path d="M0,6 L12,0 M0,6 L12,12" fill="none" stroke="#111" stroke-width="1.1"/>
+      <path d="M0,6 L12,0 M0,6 L12,12" fill="none" stroke="#111" stroke-width="0.9"/>
     </marker>
     <style>
-      .sheet{fill:#fff;stroke:#000;stroke-width:1.2}
-      .panel,.frame,.thin{fill:none;stroke:#000;stroke-width:1}
-      .wall{fill:none;stroke:#111;stroke-width:3.2;stroke-linejoin:round}
-      .intwall{fill:none;stroke:#444;stroke-width:1.8}
-      .door,.fixture{fill:none;stroke:#444;stroke-width:1.1}
-      .window{fill:#fff;stroke:#111;stroke-width:1.2}
-      .dim,.guide{fill:none;stroke:#666;stroke-width:0.9}
-      .guide{stroke-dasharray:5 4}
-      .section{fill:none;stroke:#111;stroke-width:1.1;stroke-dasharray:10 5 2 5}
-      .text{font:16px Arial,sans-serif;fill:#111}
-      .small{font:13px Arial,sans-serif;fill:#222}
-      .tiny{font:11px Arial,sans-serif;fill:#333}
-      .room{font:13px Arial,sans-serif;fill:#111;text-anchor:middle}
-      .dimtext{font:12px Arial,sans-serif;fill:#333}
-      .headline{font:700 17px Arial,sans-serif;fill:#111}
-      .title{font:24px Arial,sans-serif;fill:#111}
-      .muted{fill:#666}
+      .sheet{fill:#fff;stroke:#000;stroke-width:1}
+      .frame,.thin{fill:none;stroke:#000;stroke-width:0.85}
+      .outline{fill:none;stroke:#111;stroke-width:1.5;stroke-linejoin:round}
+      .inner{fill:none;stroke:#222;stroke-width:0.9}
+      .lite{fill:none;stroke:#999;stroke-width:0.65}
+      .door{fill:none;stroke:#444;stroke-width:0.85}
+      .window{fill:#fff;stroke:#111;stroke-width:0.8}
+      .furn{fill:none;stroke:#bbb;stroke-width:0.75}
+      .dim{fill:none;stroke:#666;stroke-width:0.7}
+      .section{fill:none;stroke:#111;stroke-width:0.8}
+      .title{font:20px Arial,sans-serif;fill:#111}
+      .headline{font:700 13px Arial,sans-serif;fill:#111}
+      .text{font:12px Arial,sans-serif;fill:#111}
+      .small{font:10px Arial,sans-serif;fill:#111}
+      .tiny{font:8px Arial,sans-serif;fill:#333}
+      .dimtext{font:9px Arial,sans-serif;fill:#333}
+      .room{font:9px Arial,sans-serif;fill:#111;text-anchor:middle}
     </style>
   </defs>
 
-  <rect x="20" y="20" width="1760" height="1160" class="sheet"/>
-  <rect x="40" y="40" width="1520" height="1120" class="frame"/>
-  <rect x="1580" y="40" width="180" height="1120" class="panel"/>
+  <rect x="18" y="18" width="1764" height="1164" class="sheet"/>
+  <rect x="1572" y="18" width="210" height="1164" class="frame"/>
+  <line x1="1572" y1="1020" x2="1782" y2="1020" class="frame"/>
 
-  <g transform="translate(170,135)">
-    <text x="0" y="0" class="title">PLAN</text>
-    <text x="0" y="20" class="small">1 : 50</text>
+  <g transform="translate(206,250)">
+    <line x1="220" y1="-78" x2="505" y2="-78" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
+    <line x1="505" y1="-78" x2="1125" y2="-78" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
+    <text x="362" y="-88" class="dimtext" text-anchor="middle">5970</text>
+    <text x="815" y="-88" class="dimtext" text-anchor="middle">13000</text>
+    <text x="815" y="-72" class="tiny" text-anchor="middle">NYBYGGNAD</text>
+    <text x="265" y="-26" class="tiny" text-anchor="middle">MUR</text>
+    <text x="1165" y="132" class="tiny" text-anchor="middle">MUR</text>
 
-    <g transform="translate(170,40)">
-      <rect x="0" y="0" width="940" height="760" class="thin"/>
+    <line x1="505" y1="-30" x2="505" y2="560" class="lite"/>
+    <line x1="250" y1="85" x2="1240" y2="85" class="lite"/>
 
-      <rect x="120" y="110" width="620" height="490" class="wall"/>
-      <rect x="60" y="635" width="740" height="110" class="thin"/>
-      <text x="430" y="770" class="small" text-anchor="middle">BALKONG</text>
-      <circle cx="90" cy="670" r="4" class="thin"/>
-      <circle cx="250" cy="670" r="4" class="thin"/>
-      <circle cx="430" cy="670" r="4" class="thin"/>
-      <circle cx="610" cy="670" r="4" class="thin"/>
-      <circle cx="770" cy="670" r="4" class="thin"/>
+    <line x1="505" y1="-112" x2="505" y2="-56" class="section"/>
+    <line x1="500" y1="-60" x2="505" y2="-78" class="section"/>
+    <line x1="510" y1="-60" x2="505" y2="-78" class="section"/>
+    <text x="535" y="-86" class="text">SEKTION A–A</text>
+    <text x="535" y="-96" class="tiny">A-03, A-01</text>
 
-      <line x1="-20" y1="110" x2="120" y2="110" class="thin"/>
-      <line x1="740" y1="245" x2="870" y2="245" class="thin"/>
-      <text x="18" y="100" class="tiny">MUR</text>
-      <text x="795" y="235" class="tiny">MUR</text>
+    <line x1="108" y1="302" x2="164" y2="302" class="section"/>
+    <line x1="112" y1="297" x2="130" y2="302" class="section"/>
+    <line x1="112" y1="307" x2="130" y2="302" class="section"/>
+    <text x="0" y="294" class="text">SEKTION B–B</text>
+    <text x="55" y="284" class="tiny">A-02, A-01</text>
 
-      <line x1="250" y1="110" x2="250" y2="600" class="intwall"/>
-      <line x1="360" y1="110" x2="360" y2="320" class="intwall"/>
-      <line x1="490" y1="110" x2="490" y2="320" class="intwall"/>
-      <line x1="590" y1="110" x2="590" y2="320" class="intwall"/>
-      <line x1="120" y1="320" x2="740" y2="320" class="intwall"/>
-      <line x1="250" y1="430" x2="740" y2="430" class="intwall"/>
-      <line x1="420" y1="430" x2="420" y2="600" class="intwall"/>
-      <line x1="560" y1="430" x2="560" y2="600" class="intwall"/>
+    <line x1="1460" y1="335" x2="1404" y2="335" class="section"/>
+    <line x1="1456" y1="330" x2="1438" y2="335" class="section"/>
+    <line x1="1456" y1="340" x2="1438" y2="335" class="section"/>
+    <text x="1470" y="327" class="text">SEKTION B–B</text>
+    <text x="1470" y="317" class="tiny">A-02, A-01</text>
 
-      <line x1="140" y1="300" x2="195" y2="300" class="door"/>
-      <path d="M195 300 A55 55 0 0 1 195 245" class="door"/>
-      <line x1="270" y1="300" x2="330" y2="300" class="door"/>
-      <path d="M270 300 A60 60 0 0 0 270 240" class="door"/>
-      <line x1="500" y1="300" x2="555" y2="300" class="door"/>
-      <path d="M555 300 A55 55 0 0 0 555 245" class="door"/>
-      <line x1="610" y1="300" x2="665" y2="300" class="door"/>
-      <path d="M610 300 A55 55 0 0 1 610 245" class="door"/>
-      <line x1="270" y1="430" x2="325" y2="430" class="door"/>
-      <path d="M325 430 A55 55 0 0 1 325 485" class="door"/>
-      <line x1="575" y1="430" x2="630" y2="430" class="door"/>
-      <path d="M575 430 A55 55 0 0 0 575 485" class="door"/>
+    <line x1="680" y1="664" x2="736" y2="664" class="section"/>
+    <line x1="732" y1="659" x2="714" y2="664" class="section"/>
+    <line x1="732" y1="669" x2="714" y2="664" class="section"/>
+    <text x="745" y="656" class="text">SEKTION A–A</text>
+    <text x="745" y="646" class="tiny">A-03, A-01</text>
 
-      <rect x="350" y="132" width="24" height="56" class="window"/>
-      <rect x="378" y="132" width="24" height="56" class="window"/>
-      <rect x="406" y="132" width="24" height="56" class="window"/>
-      <rect x="434" y="132" width="24" height="56" class="window"/>
-      <rect x="190" y="598" width="72" height="24" class="window"/>
-      <rect x="450" y="598" width="80" height="24" class="window"/>
-      <rect x="610" y="598" width="80" height="24" class="window"/>
+    <line x1="220" y1="-8" x2="505" y2="-8" class="thin"/>
+    <line x1="1125" y1="150" x2="1230" y2="150" class="thin"/>
 
-      <polyline points="430,390 505,330 580,390" class="fixture"/>
-      <polyline points="430,430 505,370 580,430" class="fixture"/>
-      <line x1="505" y1="335" x2="505" y2="425" class="fixture"/>
-      <line x1="455" y1="358" x2="555" y2="358" class="fixture"/>
-      <line x1="465" y1="382" x2="545" y2="382" class="fixture"/>
-      <line x1="475" y1="406" x2="535" y2="406" class="fixture"/>
+    <rect x="505" y="0" width="620" height="470" class="outline"/>
+    <rect x="450" y="504" width="730" height="90" class="thin"/>
+    <circle cx="485" cy="552" r="4" class="thin"/>
+    <circle cx="610" cy="552" r="4" class="thin"/>
+    <circle cx="775" cy="552" r="4" class="thin"/>
+    <circle cx="940" cy="552" r="4" class="thin"/>
+    <circle cx="1110" cy="552" r="4" class="thin"/>
+    <text x="815" y="620" class="text" text-anchor="middle">BALKONG</text>
 
-      <rect x="150" y="485" width="120" height="85" class="fixture"/>
-      <rect x="455" y="500" width="70" height="70" class="fixture"/>
-      <rect x="590" y="485" width="120" height="85" class="fixture"/>
-      <rect x="145" y="145" width="48" height="64" class="fixture"/>
-      <line x1="150" y1="175" x2="190" y2="175" class="fixture"/>
-      <line x1="150" y1="190" x2="190" y2="190" class="fixture"/>
+    <line x1="690" y1="0" x2="690" y2="470" class="inner"/>
+    <line x1="825" y1="0" x2="825" y2="220" class="inner"/>
+    <line x1="955" y1="0" x2="955" y2="220" class="inner"/>
+    <line x1="1035" y1="0" x2="1035" y2="220" class="inner"/>
+    <line x1="690" y1="220" x2="1125" y2="220" class="inner"/>
+    <line x1="690" y1="300" x2="1125" y2="300" class="inner"/>
+    <line x1="885" y1="300" x2="885" y2="470" class="inner"/>
+    <line x1="1010" y1="300" x2="1010" y2="470" class="inner"/>
 
-      <text x="185" y="205" class="room">SOVRUM</text>
-      <text x="185" y="223" class="tiny" text-anchor="middle">9,1 KVM</text>
-      <text x="305" y="210" class="room">KÖK</text>
-      <text x="305" y="228" class="tiny" text-anchor="middle">7,3 KVM</text>
-      <text x="540" y="205" class="room">TVÄTT</text>
-      <text x="540" y="223" class="tiny" text-anchor="middle">3,3 KVM</text>
-      <text x="665" y="205" class="room">BAD</text>
-      <text x="665" y="223" class="tiny" text-anchor="middle">8,1 KVM</text>
-      <text x="505" y="462" class="room">ALLRUM</text>
-      <text x="505" y="480" class="tiny" text-anchor="middle">15,8 KVM</text>
-      <text x="200" y="468" class="room">SOVRUM</text>
-      <text x="200" y="486" class="tiny" text-anchor="middle">14,1 KVM</text>
-      <text x="650" y="468" class="room">SOVRUM</text>
-      <text x="650" y="486" class="tiny" text-anchor="middle">14,1 KVM</text>
-      <text x="505" y="260" class="room">TRAPPA</text>
-      <text x="255" y="365" class="tiny" text-anchor="middle">GARDEROB / HALL</text>
-      <text x="660" y="365" class="tiny" text-anchor="middle">HALL</text>
-      <text x="465" y="348" class="tiny" text-anchor="middle">FG = +26,96</text>
+    <line x1="530" y1="220" x2="585" y2="220" class="door"/>
+    <path d="M585 220 A55 55 0 0 1 585 165" class="door"/>
+    <line x1="708" y1="220" x2="760" y2="220" class="door"/>
+    <path d="M708 220 A52 52 0 0 0 708 168" class="door"/>
+    <line x1="967" y1="220" x2="1019" y2="220" class="door"/>
+    <path d="M1019 220 A52 52 0 0 0 1019 168" class="door"/>
+    <line x1="1048" y1="220" x2="1100" y2="220" class="door"/>
+    <path d="M1048 220 A52 52 0 0 1 1048 168" class="door"/>
+    <line x1="712" y1="300" x2="764" y2="300" class="door"/>
+    <path d="M764 300 A52 52 0 0 1 764 352" class="door"/>
+    <line x1="1020" y1="300" x2="1072" y2="300" class="door"/>
+    <path d="M1020 300 A52 52 0 0 0 1020 352" class="door"/>
 
-      <line x1="505" y1="70" x2="505" y2="675" class="section"/>
-      <circle cx="505" cy="70" r="12" fill="#fff" stroke="#111" stroke-width="1.1"/>
-      <circle cx="505" cy="675" r="12" fill="#fff" stroke="#111" stroke-width="1.1"/>
-      <text x="505" y="74" class="tiny" text-anchor="middle">A</text>
-      <text x="505" y="679" class="tiny" text-anchor="middle">A</text>
-      <text x="535" y="70" class="small">SEKTION A–A</text>
-      <text x="535" y="688" class="small">SEKTION A–A</text>
+    <line x1="812" y1="0" x2="968" y2="0" class="window"/>
+    <line x1="815" y1="14" x2="965" y2="14" class="window"/>
+    <line x1="628" y1="470" x2="700" y2="470" class="window"/>
+    <line x1="915" y1="470" x2="990" y2="470" class="window"/>
+    <line x1="1060" y1="470" x2="1135" y2="470" class="window"/>
 
-      <line x1="-10" y1="430" x2="850" y2="430" class="section"/>
-      <circle cx="-10" cy="430" r="12" fill="#fff" stroke="#111" stroke-width="1.1"/>
-      <circle cx="850" cy="430" r="12" fill="#fff" stroke="#111" stroke-width="1.1"/>
-      <text x="-10" y="434" class="tiny" text-anchor="middle">B</text>
-      <text x="850" y="434" class="tiny" text-anchor="middle">B</text>
-      <text x="-72" y="418" class="small">SEKTION B–B</text>
-      <text x="798" y="418" class="small">SEKTION B–B</text>
+    <rect x="540" y="28" width="95" height="118" class="furn"/>
+    <polyline points="560,102 596,74 620,104" class="furn"/>
+    <rect x="728" y="20" width="60" height="22" class="furn"/>
+    <line x1="792" y1="20" x2="820" y2="20" class="furn"/>
+    <line x1="792" y1="42" x2="820" y2="42" class="furn"/>
+    <rect x="846" y="30" width="92" height="150" class="furn"/>
+    <line x1="855" y1="50" x2="930" y2="50" class="furn"/>
+    <line x1="855" y1="70" x2="930" y2="70" class="furn"/>
+    <line x1="855" y1="90" x2="930" y2="90" class="furn"/>
+    <line x1="855" y1="110" x2="930" y2="110" class="furn"/>
+    <line x1="855" y1="130" x2="930" y2="130" class="furn"/>
+    <line x1="855" y1="150" x2="930" y2="150" class="furn"/>
+    <rect x="1050" y="35" width="42" height="30" class="furn"/>
+    <rect x="1048" y="75" width="48" height="88" class="furn"/>
+    <line x1="1055" y1="95" x2="1089" y2="95" class="furn"/>
+    <line x1="1055" y1="110" x2="1089" y2="110" class="furn"/>
+    <rect x="546" y="342" width="124" height="105" class="furn"/>
+    <rect x="900" y="336" width="92" height="100" class="furn"/>
+    <rect x="1038" y="342" width="124" height="105" class="furn"/>
 
-      <line x1="120" y1="50" x2="740" y2="50" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
-      <line x1="120" y1="110" x2="120" y2="40" class="dim"/>
-      <line x1="740" y1="110" x2="740" y2="40" class="dim"/>
-      <text x="430" y="35" class="dimtext" text-anchor="middle">13000</text>
-      <text x="430" y="20" class="tiny" text-anchor="middle">NYBYGGNAD</text>
+    <text x="587" y="108" class="room">SOVRUM</text>
+    <text x="587" y="120" class="tiny" text-anchor="middle">9,1 KVM</text>
+    <text x="758" y="110" class="room">KÖK/HALL</text>
+    <text x="758" y="122" class="tiny" text-anchor="middle">7,3 KVM</text>
+    <text x="892" y="110" class="room">TRAPPA</text>
+    <text x="892" y="122" class="tiny" text-anchor="middle">8,2 KVM</text>
+    <text x="995" y="110" class="room">TVÄTT</text>
+    <text x="995" y="122" class="tiny" text-anchor="middle">3,3 KVM</text>
+    <text x="1080" y="110" class="room">BAD</text>
+    <text x="1080" y="122" class="tiny" text-anchor="middle">8,1 KVM</text>
+    <text x="608" y="350" class="room">SOVRUM</text>
+    <text x="608" y="362" class="tiny" text-anchor="middle">14,1 KVM</text>
+    <text x="948" y="362" class="room">ALLRUM</text>
+    <text x="948" y="374" class="tiny" text-anchor="middle">15,8 KVM</text>
+    <text x="1100" y="350" class="room">SOVRUM</text>
+    <text x="1100" y="362" class="tiny" text-anchor="middle">14,1 KVM</text>
+    <text x="805" y="254" class="tiny" text-anchor="middle">GARDEROBER</text>
+    <text x="1070" y="260" class="tiny" text-anchor="middle">HALL</text>
+    <text x="907" y="264" class="tiny" text-anchor="middle">FG = +26,96</text>
 
-      <line x1="60" y1="810" x2="800" y2="810" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
-      <line x1="60" y1="745" x2="60" y2="820" class="dim"/>
-      <line x1="800" y1="745" x2="800" y2="820" class="dim"/>
-      <text x="430" y="837" class="dimtext" text-anchor="middle">15500</text>
-      <text x="430" y="854" class="tiny" text-anchor="middle">BALKONG</text>
+    <text x="625" y="488" class="tiny" text-anchor="middle">FÖR01</text>
+    <text x="730" y="488" class="tiny" text-anchor="middle">FG</text>
+    <text x="845" y="488" class="tiny" text-anchor="middle">FG/02</text>
+    <text x="960" y="488" class="tiny" text-anchor="middle">FG/03</text>
+    <text x="1075" y="488" class="tiny" text-anchor="middle">FÖR01</text>
 
-      <line x1="92" y1="110" x2="92" y2="600" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
-      <line x1="120" y1="110" x2="82" y2="110" class="dim"/>
-      <line x1="120" y1="600" x2="82" y2="600" class="dim"/>
-      <text x="74" y="360" class="dimtext" transform="rotate(-90 74 360)">10300</text>
-      <text x="58" y="360" class="tiny" transform="rotate(-90 58 360)">NYBYGGNAD</text>
+    <line x1="451" y1="660" x2="1180" y2="660" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
+    <line x1="451" y1="594" x2="451" y2="670" class="dim"/>
+    <line x1="1180" y1="594" x2="1180" y2="670" class="dim"/>
+    <text x="815" y="682" class="dimtext" text-anchor="middle">15500</text>
+    <text x="815" y="695" class="tiny" text-anchor="middle">BALKONG</text>
 
-      <line x1="120" y1="18" x2="420" y2="18" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
-      <text x="270" y="5" class="dimtext" text-anchor="middle">5970</text>
-      <line x1="740" y1="210" x2="870" y2="210" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
-      <text x="805" y="197" class="dimtext" text-anchor="middle">4500</text>
+    <line x1="456" y1="0" x2="456" y2="470" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
+    <line x1="505" y1="0" x2="445" y2="0" class="dim"/>
+    <line x1="505" y1="470" x2="445" y2="470" class="dim"/>
+    <text x="438" y="235" class="dimtext" transform="rotate(-90 438 235)">10300</text>
+    <text x="422" y="235" class="tiny" transform="rotate(-90 422 235)">NYBYGGNAD</text>
+
+    <line x1="1178" y1="110" x2="1320" y2="110" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
+    <text x="1249" y="98" class="dimtext" text-anchor="middle">4500</text>
+    <line x1="1178" y1="0" x2="1178" y2="470" class="dim" marker-start="url(#arrow-open)" marker-end="url(#arrow-open)"/>
+    <line x1="1125" y1="0" x2="1188" y2="0" class="dim"/>
+    <line x1="1125" y1="470" x2="1188" y2="470" class="dim"/>
+    <text x="1200" y="235" class="dimtext" transform="rotate(-90 1200 235)">10300</text>
+    <text x="1216" y="235" class="tiny" transform="rotate(-90 1216 235)">NYBYGGNAD</text>
+
+    <g transform="translate(760,1010)">
+      <line x1="0" y1="0" x2="180" y2="0" class="thin"/>
+      <g class="thin">
+        <line x1="0" y1="-4" x2="0" y2="4"/>
+        <line x1="18" y1="-4" x2="18" y2="4"/>
+        <line x1="36" y1="-4" x2="36" y2="4"/>
+        <line x1="54" y1="-4" x2="54" y2="4"/>
+        <line x1="72" y1="-4" x2="72" y2="4"/>
+        <line x1="90" y1="-4" x2="90" y2="4"/>
+        <line x1="108" y1="-4" x2="108" y2="4"/>
+        <line x1="126" y1="-4" x2="126" y2="4"/>
+        <line x1="144" y1="-4" x2="144" y2="4"/>
+        <line x1="162" y1="-4" x2="162" y2="4"/>
+        <line x1="180" y1="-4" x2="180" y2="4"/>
+      </g>
+      <text x="0" y="-8" class="tiny">0</text>
+      <text x="18" y="-8" class="tiny">0,5</text>
+      <text x="36" y="-8" class="tiny">1</text>
+      <text x="54" y="-8" class="tiny">1,5</text>
+      <text x="72" y="-8" class="tiny">2</text>
+      <text x="90" y="-8" class="tiny">2,5</text>
+      <text x="108" y="-8" class="tiny">3</text>
+      <text x="126" y="-8" class="tiny">3,5</text>
+      <text x="144" y="-8" class="tiny">4</text>
+      <text x="162" y="-8" class="tiny">4,5</text>
+      <text x="184" y="-8" class="tiny">5m</text>
+      <text x="50" y="22" class="tiny">SKALA 1:50</text>
     </g>
 
-    <g transform="translate(565,930)">
-      <line x1="0" y1="15" x2="240" y2="15" class="thin"/>
-      <line x1="0" y1="15" x2="0" y2="23" class="thin"/>
-      <line x1="24" y1="15" x2="24" y2="23" class="thin"/>
-      <line x1="48" y1="15" x2="48" y2="23" class="thin"/>
-      <line x1="72" y1="15" x2="72" y2="23" class="thin"/>
-      <line x1="96" y1="15" x2="96" y2="23" class="thin"/>
-      <line x1="120" y1="15" x2="120" y2="23" class="thin"/>
-      <line x1="144" y1="15" x2="144" y2="23" class="thin"/>
-      <line x1="168" y1="15" x2="168" y2="23" class="thin"/>
-      <line x1="192" y1="15" x2="192" y2="23" class="thin"/>
-      <line x1="216" y1="15" x2="216" y2="23" class="thin"/>
-      <line x1="240" y1="15" x2="240" y2="23" class="thin"/>
-      <text x="0" y="10" class="tiny">0</text>
-      <text x="24" y="10" class="tiny">0,5</text>
-      <text x="48" y="10" class="tiny">1</text>
-      <text x="72" y="10" class="tiny">1,5</text>
-      <text x="96" y="10" class="tiny">2</text>
-      <text x="120" y="10" class="tiny">2,5</text>
-      <text x="144" y="10" class="tiny">3</text>
-      <text x="168" y="10" class="tiny">3,5</text>
-      <text x="192" y="10" class="tiny">4</text>
-      <text x="216" y="10" class="tiny">4,5</text>
-      <text x="244" y="10" class="tiny">5m</text>
-      <text x="85" y="42" class="tiny">SKALA 1:50</text>
-    </g>
+    <text x="220" y="828" class="title">PLAN</text>
+    <text x="220" y="844" class="small">1 : 50</text>
   </g>
 
-  <g transform="translate(1605,60)">
+  <g transform="translate(1592,32)">
     <text x="0" y="0" class="headline">FÖRKLARINGAR</text>
-    <line x1="0" y1="10" x2="130" y2="10" class="thin"/>
-    <text x="0" y="34" class="tiny">BET.</text>
-    <text x="38" y="34" class="tiny">AVSER</text>
-    <text x="0" y="56" class="tiny">FG</text>
-    <text x="38" y="56" class="tiny">FÄRDIGT GOLV</text>
-    <text x="0" y="78" class="tiny">MUR</text>
-    <text x="38" y="78" class="tiny">BEFINTLIG MUR</text>
-    <text x="0" y="100" class="tiny">A-A</text>
-    <text x="38" y="100" class="tiny">SEKTION A–A</text>
+    <line x1="0" y1="8" x2="120" y2="8" class="thin"/>
+    <text x="0" y="26" class="tiny">BET.</text>
+    <text x="30" y="26" class="tiny">AVSER</text>
+    <text x="0" y="44" class="tiny">FG</text>
+    <text x="30" y="44" class="tiny">FÄRDIGT GOLV</text>
+    <text x="0" y="62" class="tiny">MUR</text>
+    <text x="30" y="62" class="tiny">BEFINTLIG MUR</text>
+    <text x="0" y="80" class="tiny">A-A</text>
+    <text x="30" y="80" class="tiny">SEKTION</text>
+    <text x="0" y="98" class="tiny">B-B</text>
+    <text x="30" y="98" class="tiny">FASADSNITT</text>
 
-    <text x="0" y="168" class="headline">FÖRESKRIFTER</text>
-    <line x1="0" y1="178" x2="130" y2="178" class="thin"/>
-    <text x="0" y="202" class="tiny">SAMTLIGA MÅTT I MM.</text>
-    <text x="0" y="220" class="tiny">SKALA GÄLLER VID PDF UTSKRIFT.</text>
-    <text x="0" y="238" class="tiny">PLAN REDOVISAR NYBYGGNAD</text>
-    <text x="0" y="256" class="tiny">MED BALKONG OCH MURAR.</text>
+    <text x="0" y="308" class="headline">FÖRESKRIFTER</text>
+    <line x1="0" y1="316" x2="120" y2="316" class="thin"/>
+    <text x="0" y="334" class="tiny">SAMTLIGA MÅTT I MM OCH SKA</text>
+    <text x="0" y="346" class="tiny">KONTROLLERAS PÅ PLATS.</text>
+    <text x="0" y="364" class="tiny">SKALA 1:50</text>
 
-    <text x="0" y="328" class="headline">HÄNVISNINGAR</text>
-    <line x1="0" y1="338" x2="130" y2="338" class="thin"/>
-    <text x="0" y="362" class="tiny">A-02 FASAD</text>
-    <text x="0" y="380" class="tiny">A-03 SEKTION</text>
+    <text x="0" y="520" class="headline">HÄNVISNINGAR</text>
+    <line x1="0" y1="528" x2="120" y2="528" class="thin"/>
+    <text x="0" y="546" class="tiny">A-03-01</text>
+    <text x="40" y="546" class="tiny">SEKTION</text>
+    <text x="0" y="560" class="tiny">A-02-01</text>
+    <text x="40" y="560" class="tiny">FASAD</text>
 
-    <g transform="translate(0,860)">
-      <rect x="0" y="0" width="140" height="54" class="thin"/>
-      <text x="70" y="24" class="small" text-anchor="middle">BYGGLOVSTJÄNST</text>
-      <text x="70" y="40" class="tiny" text-anchor="middle">OMRITAT UNDERLAG</text>
+    <g transform="translate(94,870)">
+      <circle cx="0" cy="0" r="22" class="thin"/>
+      <line x1="-14" y1="14" x2="14" y2="-14" class="thin"/>
+      <line x1="0" y1="-22" x2="0" y2="-4" class="thin"/>
+      <text x="6" y="-16" class="tiny">N</text>
     </g>
 
-    <g transform="translate(0,940)">
-      <rect x="0" y="0" width="140" height="180" class="thin"/>
-      <line x1="0" y1="30" x2="140" y2="30" class="thin"/>
-      <line x1="0" y1="60" x2="140" y2="60" class="thin"/>
-      <line x1="0" y1="90" x2="140" y2="90" class="thin"/>
-      <line x1="0" y1="120" x2="140" y2="120" class="thin"/>
-      <line x1="45" y1="0" x2="45" y2="180" class="thin"/>
-      <text x="6" y="20" class="tiny">OBJEKT</text>
-      <text x="50" y="20" class="tiny">UTTRAN 1:548</text>
-      <text x="6" y="50" class="tiny">RITN.</text>
-      <text x="50" y="50" class="tiny">PLAN</text>
-      <text x="6" y="80" class="tiny">SKALA</text>
-      <text x="50" y="80" class="tiny">1:50</text>
-      <text x="6" y="110" class="tiny">DATUM</text>
-      <text x="50" y="110" class="tiny">2026-07-06</text>
-      <text x="6" y="140" class="tiny">RITN.NR</text>
-      <text x="50" y="140" class="tiny">A-01</text>
-      <text x="6" y="170" class="tiny">REV</text>
-      <text x="50" y="170" class="tiny">A</text>
+    <g transform="translate(8,1006)">
+      <rect x="0" y="0" width="118" height="14" fill="#00b294"/>
+      <rect x="0" y="14" width="118" height="62" class="thin"/>
+      <text x="59" y="39" class="small" text-anchor="middle">BYGGLOVSTJÄNST</text>
+      <text x="59" y="56" class="tiny" text-anchor="middle">A-01 PLAN</text>
+    </g>
+
+    <g transform="translate(0,1090)">
+      <rect x="0" y="0" width="170" height="72" class="thin"/>
+      <line x1="0" y1="18" x2="170" y2="18" class="thin"/>
+      <line x1="0" y1="36" x2="170" y2="36" class="thin"/>
+      <line x1="0" y1="54" x2="170" y2="54" class="thin"/>
+      <line x1="34" y1="0" x2="34" y2="72" class="thin"/>
+      <line x1="92" y1="0" x2="92" y2="72" class="thin"/>
+      <line x1="132" y1="0" x2="132" y2="72" class="thin"/>
+      <text x="4" y="12" class="tiny">PROJEKT</text>
+      <text x="38" y="12" class="tiny">UTTRAN 1:548</text>
+      <text x="4" y="30" class="tiny">RITN.</text>
+      <text x="38" y="30" class="tiny">PLAN</text>
+      <text x="96" y="30" class="tiny">SKALA</text>
+      <text x="136" y="30" class="tiny">1:50</text>
+      <text x="4" y="48" class="tiny">STATUS</text>
+      <text x="38" y="48" class="tiny">PRELIMINÄR</text>
+      <text x="96" y="48" class="tiny">DATUM</text>
+      <text x="136" y="48" class="tiny">2026-07-07</text>
+      <text x="4" y="66" class="tiny">RITN.NR</text>
+      <text x="38" y="66" class="tiny">A-40.1-110</text>
+      <text x="96" y="66" class="tiny">REV</text>
+      <text x="136" y="66" class="tiny">A</text>
     </g>
   </g>
 </svg>
