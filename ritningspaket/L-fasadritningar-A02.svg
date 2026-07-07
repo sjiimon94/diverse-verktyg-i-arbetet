@@ -1,123 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1180" width="1600" height="1180">
-  <title>A-02 Fasadritningar – Tillbyggnad träregelstomme</title>
-  <desc>Fasadritningar A-02 anpassade efter referensexempel för bygglovsritningar i skala 1:100.</desc>
-  <style>
-    .sheet { fill:#fff; stroke:#000; stroke-width:2; }
-    .frame { fill:none; stroke:#000; stroke-width:1.2; }
-    .wall { fill:none; stroke:#111; stroke-width:3.4; stroke-linejoin:round; }
-    .roof { fill:none; stroke:#111; stroke-width:3; stroke-linecap:round; }
-    .window { fill:#fff; stroke:#111; stroke-width:1.5; }
-    .mark-existing { fill:none; stroke:#999; stroke-width:1.6; stroke-dasharray:7 5; }
-    .mark-finished { fill:none; stroke:#444; stroke-width:1.7; }
-    .dim { fill:none; stroke:#666; stroke-width:1.1; }
-    .title { font: 40px Georgia, 'Times New Roman', serif; fill:#2d3548; font-weight:700; }
-    .text { font: 18px 'Arial', sans-serif; fill:#111; }
-    .small { font: 15px 'Arial', sans-serif; fill:#333; }
-    .tiny { font: 13px 'Arial', sans-serif; fill:#444; }
-    .dimtext { font: 16px 'Arial', sans-serif; fill:#444; }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" width="1800" height="1200">
+  <title>A-02 Fasadritningar</title>
+  <desc>Omritade fasader i sammanhållen bygglovsstil anpassade för PDF-export.</desc>
+  <defs>
+    <style>
+      .sheet{fill:#fff;stroke:#000;stroke-width:1.2}
+      .frame,.thin{fill:none;stroke:#000;stroke-width:1}
+      .wall{fill:none;stroke:#111;stroke-width:2.4;stroke-linejoin:round}
+      .roof{fill:none;stroke:#111;stroke-width:2.1}
+      .window,.door{fill:#fff;stroke:#111;stroke-width:1.2}
+      .ground{fill:none;stroke:#555;stroke-width:1.1}
+      .dim{fill:none;stroke:#666;stroke-width:0.9}
+      .text{font:15px Arial,sans-serif;fill:#111}
+      .small{font:12px Arial,sans-serif;fill:#222}
+      .tiny{font:10px Arial,sans-serif;fill:#333}
+      .dimtext{font:11px Arial,sans-serif;fill:#333}
+      .headline{font:700 17px Arial,sans-serif;fill:#111}
+      .title{font:24px Arial,sans-serif;fill:#111}
+    </style>
+  </defs>
 
-  <rect x="20" y="20" width="1560" height="1140" class="sheet"/>
-  <text x="70" y="80" class="title">Fasadritningar, skala 1:100</text>
-  <text x="70" y="115" class="small">A-02 Samtliga fasader med måttsättning samt befintlig och blivande mark</text>
+  <rect x="20" y="20" width="1760" height="1160" class="sheet"/>
+  <rect x="40" y="40" width="1520" height="1120" class="frame"/>
+  <rect x="1580" y="40" width="180" height="1120" class="frame"/>
 
-  <g transform="translate(65,155)">
-    <rect x="0" y="0" width="690" height="390" class="frame"/>
-    <text x="20" y="30" class="text">FASAD MOT BEFINTLIGT HUS</text>
-    <line x1="60" y1="285" x2="620" y2="285" class="mark-existing"/>
-    <line x1="60" y1="295" x2="620" y2="305" class="mark-finished"/>
-    <line x1="120" y1="105" x2="120" y2="285" class="wall"/>
-    <line x1="520" y1="105" x2="520" y2="285" class="wall"/>
-    <line x1="120" y1="105" x2="520" y2="105" class="roof"/>
-    <rect x="220" y="155" width="185" height="130" class="window"/>
-    <text x="312" y="228" class="small" text-anchor="middle">Ö1</text>
-    <line x1="120" y1="330" x2="520" y2="330" class="dim"/>
-    <line x1="120" y1="290" x2="120" y2="344" class="dim"/>
-    <line x1="520" y1="290" x2="520" y2="344" class="dim"/>
-    <text x="320" y="355" class="dimtext" text-anchor="middle">7 480</text>
-    <line x1="78" y1="105" x2="78" y2="285" class="dim"/>
-    <line x1="78" y1="105" x2="120" y2="105" class="dim"/>
-    <line x1="78" y1="285" x2="120" y2="285" class="dim"/>
-    <text x="64" y="200" class="dimtext" transform="rotate(-90 64 200)">3 400</text>
-    <text x="122" y="320" class="tiny">FG +68.12</text>
+  <text x="170" y="110" class="title">FASADER</text>
+  <text x="170" y="130" class="small">1 : 100</text>
+
+  <g transform="translate(140,170)">
+    <g>
+      <rect x="0" y="0" width="620" height="360" class="thin"/>
+      <text x="10" y="22" class="text">FASAD MOT BALKONG</text>
+      <line x1="70" y1="270" x2="565" y2="270" class="ground"/>
+      <rect x="120" y="110" width="390" height="160" class="wall"/>
+      <line x1="120" y1="110" x2="510" y2="110" class="roof"/>
+      <rect x="155" y="170" width="85" height="100" class="door"/>
+      <rect x="273" y="170" width="85" height="100" class="door"/>
+      <rect x="390" y="170" width="85" height="100" class="door"/>
+      <rect x="95" y="282" width="440" height="24" class="thin"/>
+      <text x="315" y="300" class="tiny" text-anchor="middle">BALKONG</text>
+      <line x1="120" y1="324" x2="510" y2="324" class="dim"/>
+      <line x1="120" y1="274" x2="120" y2="332" class="dim"/>
+      <line x1="510" y1="274" x2="510" y2="332" class="dim"/>
+      <text x="315" y="347" class="dimtext" text-anchor="middle">13000</text>
+      <text x="514" y="286" class="tiny">FG +26,96</text>
+    </g>
+
+    <g transform="translate(700,0)">
+      <rect x="0" y="0" width="620" height="360" class="thin"/>
+      <text x="10" y="22" class="text">FASAD MOT GÅRD</text>
+      <line x1="70" y1="270" x2="565" y2="270" class="ground"/>
+      <rect x="120" y="110" width="390" height="160" class="wall"/>
+      <line x1="120" y1="110" x2="510" y2="110" class="roof"/>
+      <rect x="150" y="150" width="70" height="72" class="window"/>
+      <rect x="250" y="150" width="70" height="72" class="window"/>
+      <rect x="350" y="150" width="70" height="72" class="window"/>
+      <rect x="450" y="150" width="40" height="72" class="window"/>
+      <line x1="120" y1="324" x2="510" y2="324" class="dim"/>
+      <line x1="120" y1="274" x2="120" y2="332" class="dim"/>
+      <line x1="510" y1="274" x2="510" y2="332" class="dim"/>
+      <text x="315" y="347" class="dimtext" text-anchor="middle">13000</text>
+    </g>
+
+    <g transform="translate(0,420)">
+      <rect x="0" y="0" width="620" height="360" class="thin"/>
+      <text x="10" y="22" class="text">GAVEL VÄNSTER</text>
+      <line x1="70" y1="270" x2="565" y2="270" class="ground"/>
+      <rect x="160" y="110" width="300" height="160" class="wall"/>
+      <line x1="160" y1="110" x2="460" y2="110" class="roof"/>
+      <rect x="280" y="150" width="70" height="72" class="window"/>
+      <line x1="160" y1="324" x2="460" y2="324" class="dim"/>
+      <line x1="160" y1="274" x2="160" y2="332" class="dim"/>
+      <line x1="460" y1="274" x2="460" y2="332" class="dim"/>
+      <text x="310" y="347" class="dimtext" text-anchor="middle">10300</text>
+    </g>
+
+    <g transform="translate(700,420)">
+      <rect x="0" y="0" width="620" height="360" class="thin"/>
+      <text x="10" y="22" class="text">GAVEL HÖGER</text>
+      <line x1="70" y1="270" x2="565" y2="270" class="ground"/>
+      <rect x="160" y="110" width="300" height="160" class="wall"/>
+      <line x1="160" y1="110" x2="460" y2="110" class="roof"/>
+      <rect x="255" y="150" width="40" height="72" class="window"/>
+      <rect x="335" y="150" width="70" height="72" class="window"/>
+      <line x1="160" y1="324" x2="460" y2="324" class="dim"/>
+      <line x1="160" y1="274" x2="160" y2="332" class="dim"/>
+      <line x1="460" y1="274" x2="460" y2="332" class="dim"/>
+      <text x="310" y="347" class="dimtext" text-anchor="middle">10300</text>
+    </g>
   </g>
 
-  <g transform="translate(845,155)">
-    <rect x="0" y="0" width="690" height="390" class="frame"/>
-    <text x="20" y="30" class="text">FASAD MOT TRÄDGÅRD</text>
-    <line x1="55" y1="285" x2="630" y2="285" class="mark-existing"/>
-    <line x1="55" y1="300" x2="630" y2="292" class="mark-finished"/>
-    <line x1="120" y1="125" x2="120" y2="285" class="wall"/>
-    <line x1="525" y1="125" x2="525" y2="285" class="wall"/>
-    <line x1="80" y1="100" x2="565" y2="100" class="roof"/>
-    <rect x="210" y="155" width="72" height="130" class="window"/>
-    <rect x="390" y="185" width="95" height="75" class="window"/>
-    <text x="246" y="228" class="small" text-anchor="middle">D1</text>
-    <text x="437" y="227" class="small" text-anchor="middle">F1</text>
-    <line x1="120" y1="330" x2="525" y2="330" class="dim"/>
-    <line x1="120" y1="290" x2="120" y2="344" class="dim"/>
-    <line x1="525" y1="290" x2="525" y2="344" class="dim"/>
-    <text x="322" y="355" class="dimtext" text-anchor="middle">10 500</text>
-    <line x1="78" y1="125" x2="78" y2="285" class="dim"/>
-    <line x1="78" y1="125" x2="120" y2="125" class="dim"/>
-    <line x1="78" y1="285" x2="120" y2="285" class="dim"/>
-    <text x="64" y="212" class="dimtext" transform="rotate(-90 64 212)">2 330</text>
-    <text x="540" y="92" class="tiny">14°</text>
-    <text x="122" y="320" class="tiny">FG +68.12</text>
-  </g>
+  <g transform="translate(1605,60)">
+    <text x="0" y="0" class="headline">FÖRKLARINGAR</text>
+    <line x1="0" y1="10" x2="130" y2="10" class="thin"/>
+    <text x="0" y="34" class="tiny">FG</text>
+    <text x="38" y="34" class="tiny">FÄRDIGT GOLV</text>
+    <text x="0" y="56" class="tiny">BALKONG</text>
+    <text x="38" y="56" class="tiny">UTVÄNDIGT DÄCK</text>
 
-  <g transform="translate(65,610)">
-    <rect x="0" y="0" width="690" height="390" class="frame"/>
-    <text x="20" y="30" class="text">GAVEL VÄNSTER</text>
-    <line x1="60" y1="285" x2="625" y2="285" class="mark-existing"/>
-    <line x1="60" y1="300" x2="625" y2="300" class="mark-finished"/>
-    <polyline points="150,285 150,125 520,125 520,90" class="wall"/>
-    <line x1="110" y1="150" x2="560" y2="80" class="roof"/>
-    <rect x="285" y="180" width="85" height="82" class="window"/>
-    <text x="327" y="227" class="small" text-anchor="middle">F2</text>
-    <line x1="150" y1="330" x2="520" y2="330" class="dim"/>
-    <line x1="150" y1="288" x2="150" y2="344" class="dim"/>
-    <line x1="520" y1="125" x2="520" y2="344" class="dim"/>
-    <text x="335" y="355" class="dimtext" text-anchor="middle">4 500</text>
-    <line x1="90" y1="125" x2="90" y2="285" class="dim"/>
-    <line x1="90" y1="125" x2="150" y2="125" class="dim"/>
-    <line x1="90" y1="285" x2="150" y2="285" class="dim"/>
-    <text x="74" y="213" class="dimtext" transform="rotate(-90 74 213)">2 330</text>
-    <text x="548" y="75" class="tiny">14°</text>
-    <text x="152" y="320" class="tiny">FG +68.12</text>
-  </g>
+    <text x="0" y="124" class="headline">FÖRESKRIFTER</text>
+    <line x1="0" y1="134" x2="130" y2="134" class="thin"/>
+    <text x="0" y="158" class="tiny">SAMTLIGA MÅTT I MM.</text>
+    <text x="0" y="176" class="tiny">SKALA GÄLLER VID PDF.</text>
 
-  <g transform="translate(845,610)">
-    <rect x="0" y="0" width="690" height="390" class="frame"/>
-    <text x="20" y="30" class="text">GAVEL HÖGER / UTSKJUTANDE DEL</text>
-    <line x1="55" y1="285" x2="630" y2="285" class="mark-existing"/>
-    <line x1="55" y1="300" x2="630" y2="296" class="mark-finished"/>
-    <polyline points="120,285 120,190 270,190 270,145 510,145 510,85" class="wall"/>
-    <line x1="90" y1="165" x2="545" y2="72" class="roof"/>
-    <rect x="382" y="170" width="95" height="75" class="window"/>
-    <text x="430" y="212" class="small" text-anchor="middle">F3</text>
-    <line x1="120" y1="330" x2="270" y2="330" class="dim"/>
-    <line x1="270" y1="330" x2="510" y2="330" class="dim"/>
-    <line x1="120" y1="288" x2="120" y2="344" class="dim"/>
-    <line x1="270" y1="190" x2="270" y2="344" class="dim"/>
-    <line x1="510" y1="145" x2="510" y2="344" class="dim"/>
-    <text x="195" y="355" class="dimtext" text-anchor="middle">3 240</text>
-    <text x="390" y="355" class="dimtext" text-anchor="middle">6 480</text>
-    <text x="545" y="68" class="tiny">14°</text>
-    <text x="122" y="320" class="tiny">FG +68.12</text>
-  </g>
+    <g transform="translate(0,860)">
+      <rect x="0" y="0" width="140" height="54" class="thin"/>
+      <text x="70" y="24" class="small" text-anchor="middle">BYGGLOVSTJÄNST</text>
+      <text x="70" y="40" class="tiny" text-anchor="middle">OMRITAT UNDERLAG</text>
+    </g>
 
-  <g transform="translate(1275,1020)">
-    <rect x="0" y="0" width="260" height="110" class="frame"/>
-    <line x1="0" y1="36" x2="260" y2="36" class="frame"/>
-    <line x1="0" y1="72" x2="260" y2="72" class="frame"/>
-    <line x1="88" y1="0" x2="88" y2="110" class="frame"/>
-    <text x="12" y="24" class="tiny">Ritning</text>
-    <text x="100" y="24" class="tiny">Fasadritningar</text>
-    <text x="12" y="60" class="tiny">Ritn.nr</text>
-    <text x="100" y="60" class="tiny">A-02</text>
-    <text x="12" y="96" class="tiny">Skala</text>
-    <text x="100" y="96" class="tiny">1:100</text>
+    <g transform="translate(0,940)">
+      <rect x="0" y="0" width="140" height="180" class="thin"/>
+      <line x1="0" y1="30" x2="140" y2="30" class="thin"/>
+      <line x1="0" y1="60" x2="140" y2="60" class="thin"/>
+      <line x1="0" y1="90" x2="140" y2="90" class="thin"/>
+      <line x1="0" y1="120" x2="140" y2="120" class="thin"/>
+      <line x1="45" y1="0" x2="45" y2="180" class="thin"/>
+      <text x="6" y="20" class="tiny">OBJEKT</text>
+      <text x="50" y="20" class="tiny">UTTRAN 1:548</text>
+      <text x="6" y="50" class="tiny">RITN.</text>
+      <text x="50" y="50" class="tiny">FASADER</text>
+      <text x="6" y="80" class="tiny">SKALA</text>
+      <text x="50" y="80" class="tiny">1:100</text>
+      <text x="6" y="110" class="tiny">DATUM</text>
+      <text x="50" y="110" class="tiny">2026-07-06</text>
+      <text x="6" y="140" class="tiny">RITN.NR</text>
+      <text x="50" y="140" class="tiny">A-02</text>
+      <text x="6" y="170" class="tiny">REV</text>
+      <text x="50" y="170" class="tiny">A</text>
+    </g>
   </g>
 </svg>
