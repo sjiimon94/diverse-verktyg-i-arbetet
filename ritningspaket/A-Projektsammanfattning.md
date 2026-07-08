@@ -2,52 +2,80 @@
 
 ## Projektbeskrivning
 
-Projektet avser en mindre tillbyggnad i träregelstomme med pulpettak, anslutande mot
-befintlig byggnad av lecasten (nedre plan) / 70 mm regelstomme (övre plan).
+Projektet avser en enplans tillbyggnad (vänstra delen av planritningen) i träregelstomme med pulpettak, anslutande mot befintlig tvåvåningsbyggnad (högra delen av planritningen).
 
 | Egenskap                | Beskrivning                                          |
 |-------------------------|------------------------------------------------------|
 | **Byggnadstyp**         | Tillbyggnad, envåning, träregelstomme                |
-| **Taktyp**              | Pulpettak, lutning ca 14°                            |
+| **Taktyp**              | Pulpettak, lutning 8,6° (15,1 %)                    |
 | **Ungefärlig längd**    | ca 10 500 mm (huvuddel)                              |
 | **Ungefärlig bredd**    | ca 4 500 mm (takfall/spännvidd)                      |
-| **Höjd, låg sida**      | ca 2 330–2 490 mm (FG till UK tak)                   |
-| **Höjd, hög sida**      | ca 3 400 mm (anslutning mot befintligt husliv)       |
+| **Höjd, låg vägg**      | 2 621 mm (yttermått)                                 |
+| **Höjd, hög vägg**      | 3 300 mm (yttermått)                                 |
+| **Höjdskillnad**        | 679 mm                                              |
 | **Färdig golvnivå**     | FG +68.12                                            |
+| **Avstånd bef. vägg–gavel** | 2 980 mm (utsida bef. yttervägg till utsida tillbyggnadens gavelvägg) |
+| **Öppning mot bef. hus**| 3 380 mm (i befintlig yttervägg 220 mm)              |
+
+## Byggnader
+
+- **Tillbyggnaden** (vänster i plan): Enplansbyggnad, träregelstomme, pulpettak.
+- **Befintligt hus** (höger i plan): Tvåvåningsbyggnad, befintlig konstruktion. Ska inte ritas med samma takkonstruktion eller sektion som tillbyggnaden.
 
 ## Bärsystem
 
-- Bärande träregelstomme, reglar 45×145 mm, c/c 450 mm
+- Bärande träregelstomme, reglar 45×170 mm, c/c 600 mm
 - Syll och hammarband i konstruktionsvirke
 - Förstärkningar kring öppningar med sidoreglar (trimmer) och överstycke
+- Infälld regel under hammarbandet i vägg
 
 ## Taksystem
 
-- Takstol/takregel 45×195 mm med nedregling 45×45 mm, c/c 450 mm
-- Pulpettak, lutning ca 14°
+- Takreglar/takbjälkar 45×220 mm, c/c 600 mm
+- Installationsläkt 28×70 mm
+- Pulpettak, lutning 8,6° (15,1 %)
 - Takfall mot låg sida
-- Anslutning mot befintligt husliv i hög sida
+- Anslutning mot befintligt hus i hög sida via bärlina 45×220 mm
 
-## Väggsystem (preliminär väggtyp, utifrån och in)
+## Infästning mot befintligt hus
 
-1. Puts
-2. Cementbunden spånskiva
-3. Vertikal spikläkt / luftspalt / kapillärbrytande spalt (min 25 mm)
-4. Yttre heltäckande isolerskikt (t.ex. 30 mm mineralull)
-5. Vindskydd (t.ex. vindskyddsskiva 9 mm)
-6. Bärande regelstomme 45×145 mm med isolering
-7. Horisontellt installationsskikt / nedregling 45×45 mm
-8. Ångspärr/ångbroms (PE-folie 0,2 mm)
-9. Invändig isolering i installationsskikt
-10. Invändig beklädnad (gipsskiva 13 mm)
+- Bärlina 45×220 mm monterad på befintlig yttervägg (220 mm)
+- Takreglar 45×220 fästs i bärlinan
+- Under bärlinan: 45×220-reglar med breda sidan (220 mm) mot befintlig vägg, 45 mm utbyggnad
 
-**Total vägguppbyggnad:** ca 290–330 mm beroende på val av yttre isolerskikt och installationsskikt.
+## Väggsystem (gällande version, utifrån och in)
+
+1. Putssystem
+2. Putsskiva 12 mm
+3. Vertikal luftspaltsläkt 28×70 mm
+4. Utvändig isolerskiva (Fasadboard/Västkustskiva) 45 mm
+5. Bärande träregelstomme 45×170 mm, c/c 600, fylld med 170 mm isolering
+6. Ångspärr
+7. Installationsskikt 45×45 mm, fyllt med isolering
+8. Träfiberskiva (OSB/Plywood) 11 mm
+9. Invändig gips 13 mm
+
+**Total vägguppbyggnad:** ca 376 mm (puts + 12 + 70 + 45 + 170 + 45 + 11 + 13).
+
+## Takkonstruktion (gällande version, utifrån och in)
+
+1. Ytpapp
+2. Underlagspapp
+3. Råspont 20 mm
+4. Luftspalt 34 mm
+5. Ströläkt 34×45 mm
+6. Vindskyddsduk
+7. Isolering 220 mm
+8. Takreglar/takbjälkar 45×220 mm c/c 600
+9. Ångspärr
+10. Installationsläkt 28×70 mm
+11. Invändig gips 13 mm
 
 ## Ritningspaketets omfattning
 
 Paketet innehåller:
 - Planritning (A-01)
-- Fasadritningar (A-02)
+- Fasadritningar / Uppställningsritningar (A-02)
 - Sektionsritning (A-03)
 - Konstruktionsöversikt (K-01)
 - Väggregelritning (K-02)
@@ -59,4 +87,4 @@ Paketet innehåller:
 - Kvalitetskontrollchecklistor
 
 ---
-*Status: PRELIMINÄR HANDLING — ej för produktion utan verifiering*
+*Status: REVIDERAD HANDLING — Rev A, 2026-07-08*
