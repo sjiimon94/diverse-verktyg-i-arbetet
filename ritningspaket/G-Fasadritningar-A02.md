@@ -3,12 +3,14 @@
 **Ritningsnummer:** A-02.1 till A-02.4  
 **Skala:** 1:100  
 **Format:** A3  
-**Status:** Preliminär handling  
-**Datum:** 2026-07-04
+**Status:** Reviderad handling – Rev A  
+**Datum:** 2026-07-08
 
 ---
 
 **NOTERING:** Väderstreck ej verifierade. Fasaderna benämns Fasad 1–4 med beskrivande tillägg. Beställare ska bekräfta korrekt orientering.
+
+**NOTERING:** Tillbyggnaden (vänster i plan) är en enplansbyggnad. Befintligt hus (höger i plan) är en tvåvåningsbyggnad och redovisas schematiskt i relevanta fasader.
 
 ---
 
@@ -18,33 +20,38 @@
 
 | Egenskap          | Värde                                              |
 |-------------------|----------------------------------------------------|
-| Totalbredd        | ca 7 480 mm (synlig del, exkl. anslutningsdel)     |
-| Totalhöjd         | ca 3 400 mm (FG till ÖK hammarband/takanslutning)  |
+| Totalbredd        | ca 7 480 mm (synlig del tillbyggnad)               |
+| Totalhöjd hög vägg| **3 300 mm** (FG till ÖK hammarband/takanslutning) |
 | Marklinje         | FG +68.12                                          |
-| Taklutning        | 14° (taket sluttar bort från denna fasad)          |
-| Fasadmaterial     | Puts på cementbunden spånskiva                     |
-| Anslutning        | Plåtbeslag och tätning mot befintlig lecavägg      |
+| Taklutning        | **8,6°** (taket sluttar bort från denna fasad)     |
+| Fasadmaterial     | Puts på putsskiva                                  |
+| Anslutning        | Bärlina 45×220 + stödreglar mot befintlig vägg     |
+
+### Befintligt hus
+
+Befintligt hus (tvåvåningsbyggnad) redovisas **till höger** i fasaden, tydligt avskilt med annan linjetyp (streckad eller tunnare linje) för att markera att det är befintlig byggnad.
 
 ### Öppningar
 
 | Bet. | Typ     | Bredd mm | Höjd mm | UK från FG mm | Position fr. vänster mm |
 |------|---------|----------|---------|---------------|-------------------------|
-| Ö1   | Öppning | 3 200    | 2 100   | 0             | KONTROLLERAS            |
+| Ö1   | Öppning | **3 380**| 2 100   | 0             | KONTROLLERAS            |
 
 ### Måttsättning
 
-- Totallängd fasad
-- Höjd FG till ÖK hammarband
+- Totallängd fasad tillbyggnad
+- Höjd FG till ÖK hammarband: **3 300 mm**
 - Höjd FG till takanslutning mot bef. hus
-- Öppningsmått Ö1 med placering
+- Öppningsmått Ö1: **3 380 mm** med placering
+- Befintlig yttervägg: **220 mm**
 - Marklinje (streckad)
 - Taksprång (ej synligt från denna sida, tak faller åt motsatt håll)
 
 ### Notering
 
-- Den 45 mm tjocka anslutningsregeln ANSL-1 syns som en smal remsa längs befintlig husvägg
+- Bärlinan 45×220 och stödreglar (45×220, 45 mm utbyggnad) syns vid anslutning mot befintlig vägg
 - Plåtbeslag vid takanslutning redovisas, se detalj D1
-- **Befintlig husvägg ritas med streckad linje bakom tillbyggnaden**
+- **Befintligt hus (tvåvåning) ritas schematiskt till höger**
 
 ---
 
@@ -55,11 +62,11 @@
 | Egenskap          | Värde                                              |
 |-------------------|----------------------------------------------------|
 | Totalbredd        | ca 10 500 mm                                       |
-| Totalhöjd, låg    | ca 2 330 mm (FG till UK takfot)                    |
+| Totalhöjd, låg    | **2 621 mm** (FG till UK takfot/ÖK hammarband)     |
 | Taksprång         | 400 mm                                             |
 | Marklinje         | FG +68.12                                          |
-| Taklutning        | 14° uppåt mot hög sida                             |
-| Fasadmaterial     | Puts på cementbunden spånskiva                     |
+| Taklutning        | **8,6°** uppåt mot hög sida                        |
+| Fasadmaterial     | Puts på putsskiva                                  |
 
 ### Öppningar
 
@@ -71,10 +78,10 @@
 ### Måttsättning
 
 - Totallängd fasad
-- Höjd FG till UK takfot
+- Höjd FG till UK takfot: **2 621 mm**
 - Höjd FG till ÖK tak (vid takfoten + taksprång)
 - Taksprång 400 mm
-- Takvinkel 14°
+- Takvinkel **8,6°**
 - Dörr D1: placering, hålmått
 - Fönster F1: placering, hålmått, bröstning
 - Marklinje (streckad)
@@ -83,7 +90,7 @@
 ### Fasadritningsnoteringar
 
 - Takfot, se detalj D3
-- Puts på cementbunden spånskiva
+- Puts på putsskiva
 - FG +68.12
 
 ---
@@ -95,11 +102,12 @@
 | Egenskap          | Värde                                              |
 |-------------------|----------------------------------------------------|
 | Totalbredd        | ca 4 500 mm                                        |
-| Totalhöjd, låg    | ca 2 330 mm                                        |
-| Totalhöjd, hög   | ca 3 400 mm                                        |
+| Totalhöjd, låg    | **2 621 mm**                                       |
+| Totalhöjd, hög   | **3 300 mm**                                       |
 | Marklinje         | FG +68.12                                          |
-| Taklutning        | 14° synlig i gaveln                                |
-| Fasadmaterial     | Puts på cementbunden spånskiva                     |
+| Taklutning        | **8,6°** synlig i gaveln                           |
+| Fasadmaterial     | Puts på putsskiva                                  |
+| Avstånd bef.vägg–gavel | **2 980 mm** (utsida bef. yttervägg till utsida gavel) |
 
 ### Öppningar
 
@@ -109,17 +117,18 @@
 
 ### Måttsättning
 
-- Totalbredd gavel
-- Höjd FG till UK takfot (låg sida)
-- Höjd FG till ÖK tak (hög sida)
-- Takvinkel 14° redovisad
+- Totalbredd gavel: 4 500 mm
+- Höjd FG till UK takfot (låg sida): **2 621 mm**
+- Höjd FG till ÖK tak (hög sida): **3 300 mm**
+- Takvinkel **8,6°** redovisad
 - Taksprång gavel 300 mm
 - Fönster F2: placering, hålmått, bröstning
 - Marklinje
+- Mått **2 980 mm** (utsida bef. vägg till utsida gavel)
 
 ### Fasadritningsnoteringar
 
-- Pulpettakets lutning tydligt markerad
+- Pulpettakets lutning tydligt markerad: **8,6°**
 - Hörndetalj, se detalj D4
 
 ---
@@ -132,11 +141,11 @@
 |-------------------|----------------------------------------------------|
 | Totalbredd        | Komplex fasad, L-formad profil                     |
 | Sektioner         | Nedre del 3 240 mm, utskjutande del 6 480 mm       |
-| Totalhöjd, låg    | ca 2 330 mm                                        |
-| Totalhöjd, hög   | ca 3 400 mm                                        |
+| Totalhöjd, låg    | **2 621 mm**                                       |
+| Totalhöjd, hög   | **3 300 mm**                                       |
 | Marklinje         | FG +68.12                                          |
-| Taklutning        | 14°                                                |
-| Fasadmaterial     | Puts på cementbunden spånskiva                     |
+| Taklutning        | **8,6°**                                           |
+| Fasadmaterial     | Puts på putsskiva                                  |
 
 ### Öppningar
 
@@ -149,8 +158,8 @@
 - Delmått 3 240 mm (nedre del)
 - Delmått 6 480 mm (utskjutande del)
 - Utskjutande bredd 3 740 mm
-- Höjder vid låg och hög sida
-- Taklutning
+- Höjder vid låg sida: **2 621 mm** och hög sida: **3 300 mm**
+- Taklutning: **8,6°**
 - Taksprång
 - Fönster F3: placering, hålmått, bröstning
 - Marklinje
@@ -167,10 +176,12 @@
 
 1. Alla fasader ritas med synliga taklinjer (heldragen), marklinje (streckad, grövre) och fasadmaterial (textnotis)
 2. Fönster och dörrar betecknas med samma beteckningar som i planritning A-01
-3. Takvinkel 14° anges på minst en gavel (Fasad 3 eller 4)
+3. Takvinkel **8,6°** anges på minst en gavel (Fasad 3 eller 4)
 4. FG +68.12 anges på samtliga fasader
 5. Nivålinjer ritas horisontellt med pilhänvisning
 6. Stuprör och hängränna redovisas schematiskt – exakt placering **KONTROLLERAS**
+7. Befintligt hus (tvåvåning) redovisas schematiskt i Fasad 1 och i relevanta gavel-fasader
+8. Höjder: låg vägg **2 621 mm**, hög vägg **3 300 mm** – konsekvent i alla fasader
 
 ---
-*Samtliga fasadmått är preliminära. Öppningsplaceringar enligt antaganden (dok C).*
+*Reviderad 2026-07-08 enligt projekteringsspecifikation. Taklutning 8,6°, höjder 2 621/3 300 mm, öppning Ö1 3 380 mm.*
