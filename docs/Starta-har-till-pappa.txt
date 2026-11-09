@@ -33,4 +33,5 @@ Be ibland om en komplett export av berättelserna. Kopiera den till en antecknin
 Håll berättelserna privata genom att inte dela projektet med andra.
 
 Officiell hjälp: https://help.openai.com/en/articles/10169521-projects-in-chatgpt
-Mobilguide med en kopieringsknapp: https://sjiimon94.github.io/diverse-verktyg-i-arbetet/
+Öppna den här guiden på mobilen: https://raw.githubusercontent.com/sjiimon94/diverse-verktyg-i-arbetet/main/Pappas%20bokagent/Starta-har-till-pappa.txt
+Öppna instruktionerna på mobilen: https://raw.githubusercontent.com/sjiimon94/diverse-verktyg-i-arbetet/main/Pappas%20bokagent/Projektinstruktioner.txt
