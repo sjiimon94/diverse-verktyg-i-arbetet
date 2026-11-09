@@ -1,0 +1,36 @@
+PAPPAS BOKAGENT – BÖRJA HÄR
+
+En enkel hjälp att samla dina historier i ChatGPT, en berättelse i taget.
+
+STARTA FRÅN MOBILEN
+
+1. Öppna ChatGPT-appen och logga in på ditt eget konto.
+2. Öppna menyn och skapa ett nytt projekt. Menynamnen kan visas som Projects/Projekt och New project/Nytt projekt.
+3. Döp projektet till Pappas bokagent.
+4. Öppna projektets inställningar. Leta upp projektinstruktioner.
+5. Öppna filen Projektinstruktioner.txt, markera och kopiera hela texten, gå tillbaka till ChatGPT och klistra in den i projektinstruktionerna. Spara.
+6. Starta en chatt i projektet och skriv eller säg: Jag vill berätta en historia.
+
+Om projektinställningarna inte syns i appen, öppna chatgpt.com i mobilens webbläsare och försök där.
+
+VARJE GÅNG DU VILL BERÄTTA
+
+1. Öppna projektet Pappas bokagent. Fortsätt gärna i samma chatt.
+2. Berätta fritt med text eller röst. Du kan pausa, hoppa i tiden, lägga till saker senare och hoppa över frågor.
+3. Läs igenom berättelsekortet. Be agenten rätta sådant som inte stämmer eller inte låter som du.
+4. Om svarets meny erbjuder att lägga till det som projektkälla, använd det. Om du inte ser alternativet går det bra att fortsätta i chatten; chatten sparas i projektet.
+
+Du kan säga:
+- Visa en överblick över berättelserna.
+- Jag vill lägga till en detalj.
+- Gör ett bokutkast av berättelserna jag har delat.
+- Gör en komplett export av berättelserna i Markdown.
+
+SÄKERHETSKOPIA
+
+Be ibland om en komplett export av berättelserna. Kopiera den till en anteckning eller spara den som en fil utanför ChatGPT. Då har du en egen kopia om du vill använda materialet till en bok eller ett annat verktyg.
+
+Håll berättelserna privata genom att inte dela projektet med andra.
+
+Officiell hjälp: https://help.openai.com/en/articles/10169521-projects-in-chatgpt
+Mobilguide med en kopieringsknapp: https://sjiimon94.github.io/diverse-verktyg-i-arbetet/

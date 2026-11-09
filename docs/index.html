@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kom igång med Pappas bokagent i ChatGPT på mobilen.">
+  <title>Pappas bokagent – börja här</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #202b39;
+      background: #f3f6f8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 20px 16px 48px;
+      line-height: 1.55;
+    }
+
+    h1, h2 { line-height: 1.2; }
+    h1 { margin-bottom: 8px; font-size: 2rem; }
+    h2 { margin-top: 0; font-size: 1.25rem; }
+    p, li { font-size: 1.05rem; }
+
+    .card {
+      margin: 16px 0;
+      padding: 20px;
+      border: 1px solid #d5dee6;
+      border-radius: 16px;
+      background: #fff;
+      box-shadow: 0 2px 8px #18344d0d;
+    }
+
+    .note {
+      padding: 14px 16px;
+      border-left: 4px solid #d39b35;
+      border-radius: 8px;
+      background: #fff8e9;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      margin: 14px 0 8px;
+      padding: 14px 18px;
+      border: 0;
+      border-radius: 10px;
+      background: #176b58;
+      color: #fff;
+      font: inherit;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .button.secondary { background: #263d58; }
+    .status { min-height: 1.5em; font-weight: 600; }
+
+    details { margin-top: 14px; }
+
+    textarea {
+      width: 100%;
+      min-height: 220px;
+      margin-top: 10px;
+      padding: 12px;
+      border: 1px solid #9aabb9;
+      border-radius: 8px;
+      font: 0.9rem/1.45 ui-monospace, SFMono-Regular, Consolas, monospace;
+    }
+
+    a { color: #145d83; }
+    footer { padding: 8px 4px; color: #526170; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pappas bokagent</h1>
+    <p>En enkel hjälp att samla dina historier i ChatGPT, en berättelse i taget.</p>
+    <p class="note"><strong>Privat projekt:</strong> skapa projektet i ditt eget ChatGPT-konto. Det kan inte installeras automatiskt från en länk, men instruktionerna behöver bara läggas in en gång.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Starta från mobilen</h2>
+      <ol>
+        <li>Tryck på knappen nedan för att kopiera bokagentens instruktioner.</li>
+        <li>Öppna ChatGPT och skapa ett nytt projekt som heter <strong>Pappas bokagent</strong>.</li>
+        <li>Öppna projektets inställningar, välj projektinstruktioner och klistra in texten.</li>
+        <li>Spara. Börja sedan en chatt i projektet med: ”Jag vill berätta en historia.”</li>
+      </ol>
+      <button class="button" id="copy" type="button">Kopiera instruktionerna</button>
+      <p class="status" id="status" aria-live="polite"></p>
+      <a class="button secondary" href="https://chatgpt.com/">Öppna ChatGPT</a>
+      <details>
+        <summary>Om kopieringsknappen inte fungerar</summary>
+        <p>Tryck länge i rutan, välj Markera allt och sedan Kopiera. Gå tillbaka till ChatGPT och klistra in texten i projektinstruktionerna.</p>
+        <textarea id="instructions" readonly aria-label="Projektinstruktioner"></textarea>
+        <p><a href="./Projektinstruktioner.txt">Öppna instruktionerna som vanlig text</a></p>
+      </details>
+    </section>
+
+    <section class="card">
+      <h2>När projektet är klart</h2>
+      <ul>
+        <li>Öppna samma projekt varje gång du vill berätta mer.</li>
+        <li>Berätta fritt med text eller röst. Du får pausa, hoppa i tiden och hoppa över frågor.</li>
+        <li>Läs igenom berättelsekortet och be agenten rätta sådant som inte stämmer.</li>
+        <li>Om du ser ett alternativ för att spara svaret som en projektkälla kan du använda det. Annars finns chatten kvar i projektet.</li>
+        <li>Be ibland om en komplett Markdown-export och spara en kopia i en anteckning eller fil utanför ChatGPT.</li>
+      </ul>
+      <p>Exempel: ”Visa en överblick över berättelserna”, ”Jag vill lägga till en detalj” eller ”Gör ett bokutkast av det jag har berättat.”</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Instruktionerna och guiden är också tillgängliga som vanliga textfiler i startpaketet.</p>
+  </footer>
+
+  <script>
+    const button = document.getElementById("copy");
+    const status = document.getElementById("status");
+    const textarea = document.getElementById("instructions");
+    let promptText = "";
+
+    fetch("./Projektinstruktioner.txt")
+      .then((response) => {
+        if (!response.ok) throw new Error("Instruktionerna kunde inte hämtas.");
+        return response.text();
+      })
+      .then((text) => {
+        promptText = text;
+        textarea.value = text;
+      })
+      .catch(() => {
+        status.textContent = "Kunde inte ladda instruktionerna. Öppna textfilen via länken nedan.";
+      });
+
+    button.addEventListener("click", async () => {
+      if (!promptText) {
+        status.textContent = "Vänta lite och försök igen, eller öppna instruktionstexten nedan.";
+        return;
+      }
+
+      try {
+        await navigator.clipboard.writeText(promptText);
+        status.textContent = "Instruktionerna är kopierade. Öppna ChatGPT och klistra in dem i projektets instruktioner.";
+      } catch {
+        textarea.focus();
+        textarea.select();
+        status.textContent = "Texten är markerad. Välj Kopiera och klistra sedan in den i ChatGPT.";
+      }
+    });
+  </script>
+</body>
+</html>
